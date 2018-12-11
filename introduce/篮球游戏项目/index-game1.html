@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>潮人篮球-游戏介绍</title>
+    <link rel="stylesheet" href="font_1i1l2mn52pw/iconfont.css">
+    <link rel="shortcut icon" href="../../icons/favicon.ico">
+    <link rel="stylesheet" href="css/game1.css">
+    <script src="js/js-game1.js"></script>
+    <script src="jquery/jquery-1.12.4.js"></script>
+    <script src="animation2.js"></script>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+<!--topbar开始-->
+<div class="topbar-bg">
+    <div class="topbar">
+        <div class="log">
+            <h1>网易游戏<a target="_blank" href="##"></a></h1>
+        </div>
+        <div class="userCenter">
+            <a target="_blank" href="##">安卓充值</a>
+            <a target="_blank" href="##">注册账号</a>
+        </div>
+        <div class="catalog" id="catalog">
+            <a target="_blank" href="##" class="btn">
+                网易游戏目录全
+                <span></span>
+            </a>
+            <div class="gameList" id="gameList">
+                <div class="PCD">
+                    <div class="top"><span>客户端游戏</span></div>
+                    <div class="bottom">
+                        <ul class="jsby" id="jsby">
+                            <li>角色扮演</li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                        </ul>
+                        <ul class="jjxx" id="jjxx">
+                            <li>竞技/休闲</li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                            <li><a href="##" target="_blank">我是游戏名</a></li>
+                        </ul>
+                        <a href="##" target="_blank" id="gengduoDy">
+                            更多热门端游
+                        </a>
+                    </div>
+                </div>
+                <div class="YDD">
+                    <div class="top"><span>手机游戏</span></div>
+                    <div class="left">
+                        <ul class="hotTj" id="hotTj">
+                            <li>热门推荐</li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul class="newsTj" id="newsTj">
+                            <li>新品推荐
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##"  target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##"  target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                            <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a><span></span>
+                                <a href="##" target="_blank">我是游戏名</a>
+                            </li>
+                        </ul>
+                        <a href="##" target="_blank" id="gengduoSy">
+                            更多热门手游
+                        </a>
+                    </div>
+                </div>
+                <div class="gameFZ">
+                    <div class="top"><span>游戏辅助</span></div>
+                    <div class="bottom">
+                        <ul class="yxfz" id="yxfz">
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                        </ul>
+                        <a href="##" target="_blank" id="wangyiyouxi">
+                            网易游戏
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="adLink" id="adLink">
+            <a target="_blank" href="##" id="anzhuo">安卓充值9.8折</a>
+            <a target="_blank" href="##" id="baoxiang">领取网易严选宝箱</a>
+        </div>
+
+    </div>
+
+</div>
+<!--topbar 结束-->
+<!--所有下部-->
+<div id="app">
+    <div class="bg">
+        <!--头部文字-->
+        <div class="header">
+            <a href="../../index.html" class="logoTop" target="_blank"></a>
+            <div class="title"></div>
+            <a href="../../index.html" class="goto-gw" target="_blank"></a>
+        </div>
+        <!--主导航栏-->
+        <div class="nav">
+            <a href="javascript:;" class="nav-item word"></a>
+            <a href="index-game2.html" class="nav-item court"></a>
+            <a href="游戏介绍页面3/index-game3.html" class="nav-item gameplay"></a>
+        </div>
+        <!--内容-->
+        <div class="page-content">
+            <div class="subtitle"></div>
+            <div class="guide">
+                烈火市（Fever City）是世界上著名的篮球圣地。在这里诞生了数不清的传奇球星，篮球为他们带来了
+                <span class="red">财富,声望,荣誉,爱情</span>
+            </div>
+            <p>
+                烈火市有4个著名的街球四大街区：
+                <span class="frame frame1">山羊区</span>
+                <span class="frame frame1">蜘蛛区</span>
+                <span class="frame frame2">迅猛龙区</span>
+                <span class="frame frame2">火烈鸡区</span>
+            </p>
+            <p>
+
+                每个街区不仅内部竞争激烈，四大街区之间也是水火不容， 不过四大街区都有一个共同的汇聚地点：
+                <span class="frame frame4">烈火公园(FEVER PARK).</span>
+            </p>
+            <p>在烈火市，如果你想要学习最酷最实用的篮球技术，体育馆可帮不上你的忙，来烈火公园看看吧；这里汇聚了四大街区的精英球员，在这里你可能会发现一个崭新的新世界；</p>
+            <p>这里，你可能碰到任何<span class="white">球星</span>，也可能看到球场上看不到的高超篮球技巧，除此以外，还能见到烈火市最有特色的<span class="white">篮球女郎</span>。</p>
+            <div class="line"></div>
+            <p>
+                <span class="white">如果你以为烈火市是一个平静安宁的城市，那你肯定想错了，在鲜为人知的另一方面，烈火市还滋生着一片阴暗。</span>
+                白天的烈火公园是充满激情与励志的公平赛场；而夜晚的烈火公园，则是黑暗的地下球市激烈赛场。无论你是想要赚钱、成名、还是个人喜好，都可以在地下球市中尽情发挥，这里有无规则挑战赛。在这里，你可以轻易获取足够的财富和名声，但也很容易一无所有；也许今天你还是天之骄子，明天就可能卖身还债；
+                <span class="white">这里是一个角斗场，只有胜利才能获得一切。</span>
+            </p>
+            <p>
+                <span class="white">加入到烈火市的篮球群体中来，如果你是球场上的天才，在这里总有</span>
+                <span class="frame frame3">属于你的传奇</span>。
+            </p>
+            <div class="subtitle subtitle2"></div>
+            <!--四个角色-->
+            <div class="role-container">
+                <div class="role-content caogen">
+                    <div class="role"></div>
+                    <div class="role-bg"></div>
+                    <div class="role-con">
+                        <p>基本上都是烈火市的<span class="yellow">普通市民</span>，平时生活在城市中因为城市的篮球文化而喜爱上了篮球。</p>
+                        <p>篮球对他们来说很可能是摆脱平凡生活的途径，因此在赛场上，他们会加倍发挥自己的实力，期望能够成为万众瞩目之星。</p>
+                    </div>
+                    <div class="fon"></div>
+                </div>
+                <div class="role-content quangui">
+                    <div class="role"></div>
+                    <div class="role-bg"></div>
+                    <div class="role-con">
+                        <p>出生于家室显赫的<span class="yellow">富裕阶级</span>，大多因为个人兴趣爱好而喜欢上了篮球运动。</p>
+                        <p>通常周围都会围绕着几个跟随的优秀球员，使得他们的水平和能力都可以获得较快的提升。</p>
+                        <p>由于高傲的性格常常看不起那些草根，因此常常喜欢在球场上欺负他们，当然也不排除在球场之外。</p>
+                    </div>
+                    <div class="fon"></div>
+                </div>
+                <div class="role-content dixia">
+                    <div class="role"></div>
+                    <div class="role-bg"></div>
+                    <div class="role-con">
+                        <p>他们是烈火市的<span class="yellow">非主流选手</span>，常年混迹于地下球市中或作为权贵选手的陪练。</p>
+                        <p>他们通常来说，不是出生很差就是因为某些原因需要大量的钱，所以在地下球场上打球时，为了达到目的无所不用其极，在于他们的比赛中需要处处小心。</p>
+                    </div>
+                    <div class="fon"></div>
+                </div>
+                <div class="role-content zhiye">
+                    <div class="role"></div>
+                    <div class="role-bg"></div>
+                    <div class="role-con">
+                        <p>没错，<span class="yellow">职业选手</span>也会参与到烈火公园的比赛中，无论是白天还是晚上，都可能发现他们的身影。</p>
+                        <p>通常来说，他们追求的是球场上个人极致的技巧以及与朋友之间精妙的配合，当然不排除部分因为债务问题而加入地下球市中；不可否认，他们的出现就已经为球场带来了极高的人气。</p>
+                    </div>
+                    <div class="fon"></div>
+                </div>
+            </div>
+        </div>
+        <!--底部floor-->
+        <div class="footer">
+            <div class="up">
+                <div class="share">
+                    <span class="share-txt">分享到:</span>
+                    <ul class="share-btn">
+                        <li>
+                            <a class="iconfont icon-weixin" style="" href="javascript:;" title="分享到微信二维码" target="_self"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="分享到易信" target="_self" class="iconfont icon-yixin"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="分享到新浪微博" target="_self" class="iconfont icon-weibo"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" title="分享到QQ空间" target="_self" class="iconfont icon-kongjian1"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="down">
+                <div class="down-inner">
+                    <span class="down-left">
+                        <a class="a0" href="http://www.163.com/" target="_blank">
+                            <img src="images/netease.2.png"></a>
+                        <a class="a1" href="http://game.163.com/" target="_blank">
+                            <img src="images/nie.2.png"></a>
+                        <a class="a2" href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/gameNetTag/4028c08c4b4e62fe014b523d7ba00a15" target="_blank">
+                            <img src="images/wen2.png"></a>
+                        <img src="images/leihuo.2.png">
+                    </span>
+                    <span class="down-right">
+                        <i class="nic1">
+				<a href="javascript:;" target="_blank">公司简介</a> - <a href="javascript:;" target="_blank">客户服务</a> - <a href="javascript:;" target="_blank">相关法律</a> - <a href="javascript:;" target="_blank">网易游戏</a> - <a href="javascript:;" target="_blank">联系我们</a> - <a href="javascript:;" target="_blank">商务合作</a> - <a href="javascript:;" target="_blank">加入我们</a>
+				</i>
+                        <br>
+                        <i class="nic2">
+				网易公司版权所有 ©1997-2018 <a class="nic-line" href="javascript:;" target="_blank">点击查看家长监护工程 &gt; </a>
+				</i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(function (  ) {
+
+        ;(function (  ) {
+            var catalog = document.getElementById("catalog");//网易游戏目录
+            var gameList = document.getElementById("gameList")//隐藏的大盒子
+            //移入显示大盒子,移出隐藏大盒子
+            catalog.onmouseover = function (  ) {
+                gameList.style.display="block";
+            }
+            catalog.onmouseout = function (  ) {
+                gameList.style.display="none";
+            }
+            var anzhuo = document.getElementById("anzhuo");
+            var baoxiang = document.getElementById("baoxiang");
+            animationSlow(anzhuo,{
+                top:-55
+            },50,animationSlow(baoxiang,{
+                top:0
+            },50))
+
+            //安卓/宝箱   的轮播效果
+            function lunbo (  ) {
+                if (anzhuo.offsetTop== -55){
+                    anzhuo.style.top=55+"px";
+                    animationSlow(baoxiang,{
+                        top:-55
+                    },50,animationSlow(anzhuo,{
+                        top:0
+                    },50))
+                } else if (baoxiang.offsetTop== -55) {
+                    baoxiang.style.top= 55+"px";
+                    animationSlow(anzhuo,{
+                        top:-55
+                    },50,animationSlow(baoxiang,{
+                        top:0
+                    },50))
+                }
+            }
+            setInterval(lunbo,5000)
+        }() )
+        /*topbar 的js结束*/
+
+        /*移入动画开始*/
+
+        //1.页面滚动事件  四个角色依次显示
+        $(window).on("scroll",function (  ) {
+            //监视页面scrollTop的值
+            var sTop = $(this).scrollTop();
+            if(sTop>=678){//caogen显示
+                $("#app .page-content .role-container .caogen").animate({
+                    left:-60,
+                    opacity:1
+                },800);
+            }
+
+            if(sTop>=806){//quangui显示
+                $('.quangui').animate({
+                    right:-30,
+                    opacity:1
+                },800);
+            };
+
+            if(sTop>=1380){//dixia显示
+                $('.role-container .dixia').animate({
+                    left:-60,
+                    opacity:1
+                },800);
+            };
+
+            if(sTop>=1600){//zhiye显示
+                $('.role-container .zhiye').animate({
+                    right:-30,
+                    opacity:1
+                },800);
+            };
+
+        });
+
+
+
+
+    });
+
+</script>
+</html>

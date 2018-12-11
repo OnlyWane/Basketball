@@ -1,0 +1,463 @@
+body {
+    font:  12px/100% "微软雅黑";
+    width: 100%;
+    background: url('../img/bg_1da3ea3.jpg') no-repeat ;
+    background-size: cover;
+}
+
+.w {
+    width: 1100px;   
+    margin: 0 auto;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.main .logo {
+    float: left;
+    width: 199px;
+    height: 100px;
+}
+
+.main .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../img/index_z_06811f2.png");
+    background-position: -204px -160px;
+}
+
+.main .logo h1 {
+    text-indent: -9999px;
+}
+
+.main .link-g {
+    float: right;
+    width: 74px;
+    height: 67px;
+}
+
+.main .link-g a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../img/index_z_06811f2.png");
+    background-position: -452px -262px;
+}
+
+.main .link-g a:hover {
+    background-position: -499px -160px;
+}
+
+.main .collect {
+    width: 1000px;
+    margin: 130px auto 0;
+}
+
+.main .collect .title {
+    width: 645px;
+    height: 160px;
+    background: url("../img/index_z_06811f2.png") no-repeat;
+    background-position: 0px 0px;
+}
+
+.main .collect .video-nav {
+    margin-top: 50px;
+    height: 98px;
+}
+
+.main .collect .nav {
+    margin-left: 40px;
+}
+
+.main .nav a {
+    position: relative;
+    float: left;
+    width: 262px;
+    height: 98px;
+    transform: skew(-40deg);
+    overflow: hidden;
+}
+
+.main .nav a span {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    display: block;
+    width: 342px;
+    height: 98px;
+    transform: skew(40deg);
+    background: url("../img/nav-sprites_a0292ed.png") no-repeat;
+    
+}
+
+.main .nav a:first-child span {
+    background-position: 0 -98px;
+}
+
+.main .nav a:last-child span {
+    background-position: -262px 0px;
+}
+
+.main .content {
+    height: 1000px;
+    width: 100%;
+}
+
+.main .pictrue {
+    display: none;
+}
+
+.main .content ul {
+    height: 1000px;
+    overflow: hidden;
+}
+
+.main .content li {
+    position: relative;
+    margin: 80px 10px 0 10px;
+    width: 440px;
+    height: 245px;
+}
+
+.main .content li:nth-child(2n+1) {
+    float: left;
+
+}
+
+.main .content li:nth-child(2n) {
+    float: right;
+}
+
+.main .content li .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    display: none;
+}
+
+.main .content li span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* display: block; */
+    display: none;
+    width: 102px;
+    height: 102px;
+    margin-top: -51px;
+    margin-left: -51px;
+    background: url("../img/index_z_06811f2.png") no-repeat;
+    background-position: -102px -160px;
+}
+
+.main .content li a,
+.main .content li img {
+    /* display: block; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* .main .pictrue ul li {
+    margin: 80px 10px 0 10px;
+} */
+
+.main .pictrue ul li img {
+    transition: all 0.5s;
+}
+
+.main .pictrue ul li:hover img{
+    z-index: 1;
+}
+
+.main .pictrue ul li:hover img:nth-child(1){
+    transform: translate(0,-40%) scale(0.55,0.55); 
+}
+
+.main .pictrue ul li:hover img:nth-child(2){
+    transform: translate(0,-20%) scale(0.75,0.75);  
+}
+
+.main .pictrue ul li:hover img:nth-child(3){
+    transform: scale(0.95,0.95); 
+}
+
+.main .pictrue ul li:hover img:nth-child(4){
+    transform: translate(0,20%) scale(1.05,1.05);  
+}
+
+
+.main .content li div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, .7);
+   
+}
+
+.main .content li p {
+    font-size: 20px;
+    line-height: 40px;
+    color: #edbb00;
+    text-align: center;
+}
+
+.main .content li i {
+    position: absolute;
+    width: 200px;
+    height: 4px;
+    background: url("../img/index_z_06811f2.png");
+}
+
+
+.main .content li i.item-top {
+    top: -8px;
+    left: -5px;
+    background-position: 0 -364px;
+}
+
+.main .content li i.item-bottom {
+    bottom: -8px;
+    right: -5px;
+    background-position: -248px -361px;
+}
+
+.main .content .sel-wrap {
+    position: relative;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.main .content .sel {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.main .content .sel i {
+    float: left;
+    width: 24px;
+    height: 23px;
+    margin: 0 8px;
+    background-color: transparent;
+    background: url('../img/index_z_06811f2.png');
+    background-position: -610px -160px;
+    opacity: .4;
+}
+
+.main .content .sel i:first-child {
+    opacity: 1;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #989999;
+}
+.footer .share-box {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #8e8d8b;
+    text-align: center;
+    position: relative;
+}
+
+.footer .share {
+    position: absolute;
+    height: 45px;
+    line-height: 45px;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0);
+}
+
+.footer .share span{
+    float: left;
+    font-size: 14px;
+     font-family: simSun;
+     font-weight: bold;
+     color:rgb(226, 170, 57);
+}
+
+.footer .share a {
+    float: left;
+    font-size: 14px;
+}
+
+.footer .share a {
+    width: 24px;
+    height: 36px;
+    margin-left: 8px;
+}
+
+
+.footer .link {
+    width: 930px;
+    padding-top: 5px;
+    height: 48px;
+    margin: 0 auto;
+    color: #989999;
+}
+
+.footer .link .cn-logo,
+.footer .link .cn-link {
+    float: left;
+}
+
+.footer .link .cn-logo a {
+    float: left;
+    margin-top: 2px;
+}
+
+.footer .link .cn-logo a img {
+    margin-top: 5px;
+    padding-right: 15px;
+}
+
+.footer .link .cn-logo a:first-child img {
+    padding-right: 0;
+}
+
+.footer .link .cn-link {
+   height: 53px;
+}
+
+.footer .link .cn-link i {
+    display: block;
+}
+
+.footer .link .cn-link i a {
+    color: #989999;
+}
+
+.footer .link .cn-link i:last-child {
+    margin-top: 15px;
+    position: relative;
+}
+.footer .link .cn-link .family {
+    display: inline-block;
+    color: #fff;
+    background-color: #610000;
+    position: absolute;
+    right: 0;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 3px;
+    top: -7px;
+}
+
+.video-list {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    display: none;
+    z-index: 30px;
+}
+
+
+.video-list>div {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 1000px;
+    height: 600px;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.video-list a {
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    right: 5px;
+    top: 25px;
+    background: url("../img/index_z_06811f2.png");
+    background-position: -580px -167px;
+}
+
+.pictru-list {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 999;
+    display: none;
+}
+
+.thumb {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    height: 300px;
+}
+
+.thumb a {
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    right: -300px;
+    top: -150px;
+    background: url("../img/index_z_06811f2.png");
+    background-position: -580px -167px;
+}
+
+
+.thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 5px solid white;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
+}
+
+
+.kort {
+    perspective: 1200px;
+    perspective-origin: 50% 50%;
+}
+
+.kort img {
+    transition: all 0.3s ease;
+}
+
+.kort:hover img, .kort.touching img {
+    transform: translateX(-60%) rotateY(60deg) translateZ(-80px);
+}
+
+.kort:hover img.present ~ img, .kort.touching img.present ~ img {
+    transform: translateX(82%) rotateY(50deg);
+}
+
+.kort.concave:hover img.present ~ img, .kort.concave.touching img.present ~ img {
+    transform: translateX(60%) rotateY(-60deg) translateZ(-80px);;
+}
+
+.kort.stack:hover img, .kort.stack.touching img {
+    transform: translateZ(-180px) rotateY(-60deg);
+}
+
+.kort.stack:hover img.present ~ img, .kort.stack.touching img.present ~ img {
+    transform: translateX(82%) rotateY(50deg);
+}
+
+.kort:hover img.present, .kort.touching img.present {
+    transform: none;
+    margin: 0 !important;
+}
+

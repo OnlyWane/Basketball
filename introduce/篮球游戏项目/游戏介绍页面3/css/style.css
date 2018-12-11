@@ -1,0 +1,705 @@
+
+/*topbar开始----------------------------------------------------------------*/
+.topbar-bg {
+    height: 55px;
+    background-color: #fbfbfb;
+}
+.topbar {
+    height: 55px;
+    width: 1423px;
+    margin: 0 auto;
+    position: relative;
+}
+.topbar-bg .log {
+    height: 55px;
+    width: 133px;
+    text-indent: -9999px;
+    float: left;
+    margin-left: 213px;
+}
+.topbar-bg .log a {
+    float: left;
+    display: block;
+    height: 55px;
+    width: 133px;
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+    background-image: url("../img/logo_b5525b7.png");
+}
+.topbar-bg .userCenter {
+
+    height: 55px;
+    float: left;
+    margin-left:502px;
+    text-align: center;
+}
+.topbar-bg .userCenter a {
+    display: block;
+    float: left;
+    height: 52px;
+    width: 77px;
+    line-height: 52px;
+    margin-right: 4px;
+}
+.topbar-bg .userCenter a:hover,
+.topbar-bg .adLink a:hover {
+    border-bottom: 3px solid #bc2e2e;
+    color: #bc2e2e;
+    background-color: #f7f7f7;
+}
+
+.topbar-bg .catalog {
+    width: 123px;
+    height: 52px;
+    float: left ;
+    text-align: center;
+}
+.topbar-bg .catalog .btn {
+    display: block;
+    height: 55px;
+    width: 123px;
+    line-height: 52px;
+    position: relative;
+}
+.topbar-bg .catalog .btn:hover {
+    border-bottom: 3px solid #bc2e2e;
+    color: #bc2e2e;
+    background-color: #f7f7f7;
+    height: 52px;
+}
+
+.topbar-bg .catalog .btn span {
+    position: absolute;
+    display: block;
+    height: 7px;
+    width: 11px;
+    background-image: url("../img/sprite-w_7fc7459.png");
+    background-position: -103px -100px;
+    top: 23px;
+    right: 3px;
+}
+.topbar-bg .adLink {
+    height: 55px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+.topbar-bg .adLink a {
+    display: block;
+    width: 100px;
+    height: 52px;
+    float: right;
+    position: absolute;
+    top: 0;
+}
+
+.topbar-bg .adLink a:nth-child(2) {
+    top: 55px;
+}
+#gameList {
+    width: 1020px;
+    height: 488px;
+    background-color: rgba(255,255,255,.90);
+    position: relative;
+    z-index: 1000;
+    display: none;
+    left: -800px;
+    top: 0px;
+}
+#gameList .PCD,
+#gameList .YDD,
+#gameList .gameFZ{
+    float: left;
+    border-right: 1px solid #cfcfcf;
+}
+#gameList .PCD {
+    width: 335px;
+    height: 100%;
+    /*background-color: red;*/
+    position: relative;
+}
+
+#gameList .YDD {
+    width: 539px;
+    height: 100%;
+    /*background-color: yellow;*/
+    position: relative;
+}
+#gameList .gameFZ {
+    width: 144px;
+    height: 100%;
+    /*background-color: brown;*/
+    border-right: 0 solid #cfcfcf;
+    position: relative;
+}
+.gameList .top {
+    height: 30px;
+    width: 100%;
+    background-color: rgba(255,255,255,.6);
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #bc2e2e;
+    font-family: "Microsoft YaHei";
+}
+.gameList .top span {
+    margin: 8px 0 0 15px;
+}
+.gameList .PCD .bottom ul,
+.gameList .YDD .left ul,
+.gameList .YDD .right ul,
+.gameList .gameFZ .bottom ul {
+    margin-top: 15px;
+    float: left;
+    display: block;
+}
+.gameList .PCD .bottom ul li:first-child,
+.gameList .YDD .left ul li:first-child,
+.gameList .YDD .right ul li:first-child{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 10px;
+    text-align: left;
+}
+.gameList .YDD .left {
+    float: left;
+    height: 100%;
+    width: 144px;
+    /*border-right: 1px solid #cfcfcf;*/
+}
+.gameList .PCD .bottom ul li,
+.gameList .YDD .left ul li,
+.gameList .YDD .right ul li,
+.gameList .gameFZ .bottom ul li {
+    line-height: 24px;
+    font-family: "Microsoft YaHei";
+}
+.gameList .PCD .bottom ul:first-child {
+    margin: 15px 100px 0 20px;
+}
+.gameList .YDD .left ul  {
+    margin-left: 20px;
+}
+.gameList .YDD .right ul {
+    margin-left: 20px;
+}
+.gameList .YDD .right ul a {
+    margin-right: 60px;
+}
+.gameList .gameFZ ul {
+    margin-left: 20px;
+}
+.gameList a {
+    float: left;
+}
+#jsby span ,
+#jjxx span,
+#hotTj span,
+#yxfz span{
+    /*position: relative;*/
+    float: left;
+    display: block;
+    width: 19px;
+    height: 11px;
+    background-image: url(../img/sprite-w_7fc7459.png);
+    background-position: -97px -214px;
+    margin-left: 40px;
+    margin-right: -40px;
+    margin-top: 8px;
+}
+#jsby span ,
+#jjxx span{
+    margin-left: 20px;
+}
+#yxfz span {
+    margin-left: 25px;
+}
+#jsby li:nth-child(2) span
+{
+    background-position: -97px -276px;
+}
+#jsby li:nth-child(3) span,
+#jsby li:nth-child(4) span,
+#hotTj span,
+#yxfz li:nth-child(2) span,
+#yxfz li:nth-child(3) span,
+#yxfz li:nth-child(4) span {
+    background-position: -97px -152px;
+}
+#newsTj span {
+    float: left;
+    display: block;
+    width: 19px;
+    height: 11px;
+    background-image: url(../img/sprite-w_7fc7459.png);
+    background-position: -97px -214px;
+    margin-left: -20px;
+    margin-top: 8px;
+}
+#newsTj li a:nth-child(5) {
+    margin-right: 0px;
+}
+#gengduoDy,
+#gengduoSy{
+    position: absolute;
+    width: 14px;
+    height: 90px;
+    background-color:#bc2e2e ;
+    right: 0;
+    top: 140px;
+    padding-right: 8px;
+    padding-left:  8px;
+    padding-top: 10px;
+    color: #fff;
+}
+#wangyiyouxi {
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    background-image: url(../img/sprite-w_7fc7459.png);
+    background-position: 0 -338px;
+    bottom: 0;
+    left: 20px;
+    color:#bc2e2e;
+    padding-left: 15px;
+}
+/*topbar结束----------------------------------------------------------------*/
+
+
+
+
+
+#app {
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+#app .wrap {
+    position: relative;
+    /*width: 1920px;*/
+    height: 3800px;
+    display: block;
+    margin: 0 auto;
+    background: url("../img/bg-3_2368d15.jpg") center center;
+}
+
+.wrap .top-wrap {
+    position: relative;
+    width: 100%;
+    height: 254px;
+    /*background-color: pink;*/
+}
+.wrap .top-wrap .inner {
+    position: absolute;
+    width: 847px;
+    height: 106px;
+    /*background-color: #ccc;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wrap .top-wrap .inner .logo {
+    float: left;
+    display: block;
+    width: 216px;
+    height: 106px;
+    background: url("../img/index-jinglingtu.png") -246px 0 ;
+}
+.wrap .top-wrap .inner .title {
+    float: left;
+    width: 482px;
+    height: 69px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: url("../img/index-jinglingtu.png") -238px -425px;
+}
+.wrap .top-wrap .inner .goto-gw {
+    width: 74px;
+    height: 67px;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    background: url("../img/index-jinglingtu.png") -1845px -94px;
+}
+.wrap .top-wrap .inner a.goto-gw:hover {
+    background: url("../img/index-jinglingtu.png") -1819px -183px;
+}
+
+/*主导航栏代码*/
+.wrap .nav {
+    width: 100%;
+    height: 97px;
+    background:url("../img/nav-bg-2_5ce162e.png");
+    background-position: center;
+    position: relative;
+}
+
+.nav .nav-item {
+    display: block;
+    width: 391px;
+    height: 97px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.nav .word {
+    background-image: url("../img/index-jinglingtu.png");
+    background-position:  0 -325px;
+    margin-left: -524px;
+}
+/*移入变色动画*/
+/*.nav .word.active{*/
+    /*background-image: url("../img/index-jinglingtu.png");*/
+    /*background-position:  0 -228px;*/
+    /*margin-left: -524px;*/
+/*}*/
+.nav .court {
+    background-image: url("../img/index-jinglingtu.png");
+    background-position: -463px -291px;
+    margin-left: -215px;
+}
+/*移入变色动画*/
+/*.nav .court.active {*/
+    /*background-image: url("../img/index-jinglingtu.png");*/
+    /*background-position: -463px -194px;*/
+    /*margin-left: -215px;*/
+/*}*/
+
+
+.nav .court:hover {
+    background-position-y: -194px;
+}
+.nav a.word:hover {
+    background-position-y: -228px;
+}
+
+
+.nav .gameplay {
+    background-image: url("../img/index-jinglingtu.png");
+    background-position: -462px -97px;
+    margin-left: 92px;
+}
+.nav .gameplay.active{
+    background-image: url("../img/index-jinglingtu.png");
+    background-position: -462px 0;
+    margin-left: 92px;
+}
+
+
+
+
+/*主要内容代码*/
+
+/*单人玩法的代码*/
+.wrap .main {
+    width: 1280px;
+    height: 3097px;
+    margin: 60px auto 0;
+    overflow: hidden;
+    position: relative;
+    /*background-color: pink;*/
+}
+
+.wrap .main .subtitle-1 {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    top: 0;
+    left: 52px;
+    background: url("../img/index-jinglingtu.png") -854px -272px;
+}
+.wrap .main .content-wrap.juqing {
+    width: 866px;
+    height: 60px;
+    position: absolute;
+    top: 130px;
+    left: -1100px;
+    background: url("../img/juqing_2312db4.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 82px  150px 38px 52px ;
+
+}
+.wrap .main .content-wrap span.red {
+    color: #bc341a;
+    font-weight: bolder;
+}
+
+.wrap .main .content-wrap.texun {
+    width: 899px;
+    height: 57px;
+    position: absolute;
+    top: 353px;
+    right: -1100px;
+    background: url("../img/texun_821a313.png");
+    font-size: 18px;
+    line-height: 18px;
+    padding: 93px 0 0 52px;
+}
+.wrap .main .content-wrap.renjiduizhan {
+    width: 835px;
+    height: 165px;
+    position: absolute;
+    top: 544px;
+    left: -1100px;
+    background: url("../img/renjiduizhan_9eed53d.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 82px 150px 0 52px;
+
+}
+
+/*多人玩法的代码*/
+.wrap .main .subtitle-2 {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    top: 910px;
+    left: 52px;
+    background: url("../img/index-jinglingtu.png") -1497px -184px;
+}
+.wrap .main .content-wrap.kaifangjian {
+    width: 1009px;
+    height: 78px;
+    position: absolute;
+    top: 1540px;
+    left: 99px;
+    background: url("../img/kaifangjian_82e464b.png");
+    font-size: 18px;
+    line-height: 18px;
+    padding: 87px 0 0 52px;
+}
+
+.wrap .main .content-wrap.danren1v1 {
+    width: 404px;
+    height: 213px;
+    position: absolute;
+    top: 1205px;
+    left: -800px;
+    background: url("../img/1v1_ec1c7b.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 92px 59px 0 52px;
+
+}
+.wrap .main .content-wrap.duoren2v2 {
+    width: 400px;
+    height: 209px;
+    position: absolute;
+    top: 1209px;
+    right: -800px;
+    background: url("../img/2v2_c302b2.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 87px 59px 0 56px;
+    color: #bfc55a;
+}
+.wrap .main .content-wrap .white {
+    color: #fff;
+}
+
+.wrap .main .content-wrap.danren3v3 {
+    width: 400px;
+    height: 204px;
+    position: absolute;
+    top: 1520px;
+    left: -800px;
+    background: url("../img/3v3_ea3b175.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 95px 59px 0 56px;
+    color: #ffd35a;
+
+}
+
+.wrap .main .content-wrap.duoren3v3 {
+    width: 400px;
+    height: 210px;
+    position: absolute;
+    top: 1525px;
+    right: -800px;
+    background: url("../img/3v3-2_bb8c9f.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 95px 59px 0 56px;
+
+}
+
+/*赛事玩法的代码*/
+
+.wrap .main .subtitle-3 {
+    position: absolute;
+    width: 322px;
+    height: 88px;
+    top: 2060px;
+    left: 52px;
+    background: url("../img/index-jinglingtu.png") -854px -94px;
+}
+.wrap .main .content-wrap.paiweisai {
+    width: 831px;
+    height: 156px;
+    position: absolute;
+    top: 2188px;
+    left: -1100px;
+    background: url("../img/paiweisai_e9cce50.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 82px 150px 0 52px;
+
+}
+.wrap .main .content-wrap.zidingyi {
+    width: 846px;
+    height: 113px;
+    position: absolute;
+    top: 2426px;
+    right: -1100px;
+    background: url("../img/zidingyisaishi_4e568e0.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 84px 160px 0 52px;
+
+}
+
+.wrap .main .content-wrap.quyuliansai {
+    width: 831px;
+    height: 122px;
+    position: absolute;
+    top: 2659px;
+    left: -1100px;
+    background: url("../img/quyuliansai_4f9bb88.png");
+    font-size: 18px;
+    line-height: 30px;
+    padding: 82px 150px 0 52px;
+}
+
+.wrap .main .content-wrap.yulesaishi {
+    width: 999px;
+    height: 64px;
+    position: absolute;
+    top: 2906px;
+    right: -1100px;
+    background: url("../img/yulesaishi_caf9c7d.png");
+    font-size: 18px;
+    line-height: 18px;
+    padding: 86px 0 0 52px;
+}
+
+
+/*底部footer*/
+#app .footer {
+    position: absolute;
+    /*background-color: #ccc;*/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    color: #eeeeee;
+}
+
+.footer .up {
+    display: block;
+    text-align: center;
+}
+
+.footer .up .share {
+    position: relative;
+    display: inline-block;
+}
+
+.footer .up .share .share-txt {
+    height: 20px;
+    line-height: 20px;
+    float: left;
+}
+
+.footer .up .share-btn {
+    float: left;
+}
+
+.footer .up .share-btn li {
+    float: left;
+
+}
+
+.footer .up .share-btn li a {
+    display: block;
+
+}
+
+#app .footer a:hover {
+    color: #e6b42c;
+}
+a.icon-weixin,
+a.icon-yixin,
+a.icon-weibo1,
+a.icon-kongjian1 {
+    font-size: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+/*footer下面部分*/
+.footer .down .down-inner {
+    width: 930px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer .down .down-inner .down-left {
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    min-width: 300px;
+}
+
+.footer .down .down-inner .down-left li {
+    float: left;
+}
+
+.footer .down .down-inner .down-left li a {
+    display: inline-block;
+}
+
+/*下面右边*/
+.footer .down .down-inner .down-right {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#app .footer a {
+    color: #eee;
+}
+.footer .down .down-inner .down-right .nic1 a {
+    text-decoration: none;
+}
+
+.footer .down .down-inner .down-right .nic1 a:hover {
+    text-decoration: underline;
+}
+
+.footer .down .down-inner .down-right .nic2 a {
+    display: inline-block;
+    text-decoration: none;
+    width: 139px;
+    height: 20px;
+    background-color: #610000;
+    margin-left: 102px;
+}
+.footer .down .down-inner .down-right .nic2 a:hover {
+    text-decoration: underline;
+}

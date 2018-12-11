@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>潮人篮球-首页</title>
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="./index/indexCSS/stylesheet.css">
+    <link rel="stylesheet" href="./index/indexCSS/index.css">
+    <link rel="stylesheet" href="./index/font_xfy9w5zt41b/iconfont.css">
+    <link rel="stylesheet" href="./index/indexCSS/index1.css">
+    <link rel="stylesheet" href="./index/indexCSS/head-index.css">
+    <link rel="stylesheet" href="./index/indexCSS/demo.css">
+    <link rel="stylesheet" href="./index/indexCSS/潮人篮球.css">
+    <link rel="stylesheet" href="./index/indexCSS/iconfont.css">
+
+    <style>
+        @keyframes loading-ball {
+            from {
+                transform: translateY(30px);
+            }
+            to {
+                transform: translateY(0px);
+            }
+        }
+        @keyframes loading-bar {
+            from {
+                transform: translateX(0px);
+            }
+            to {
+                transform: translateX(250px);
+            }
+        }
+        .load {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9;
+        }
+        .load span.bg {
+            position: absolute;
+            top: 300px;
+            left: 50%;
+            z-index: 15;
+            width: 55px;
+            height: 55px;
+            margin-left: -27px;
+            background:url("video-pic/img/pic-ball_5c972bf.png");
+            animation: loading-ball .5s ease  infinite alternate;
+        }
+        .load .bar {
+            position: absolute;
+            top: 400px;
+            left: 50%;
+            width: 250px;
+            height: 16px;
+            transform: translate(-50%,0);
+            border: 3px solid #eec943;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .load .barcolor {
+            position: absolute;
+            top: 0;
+            left: -250px;
+            width: 250px;
+            height: 16px;
+            background-color: #eec943;
+            animation: loading-bar 2s  ease-in-out  alternate forwards;
+            animation-iteration-count:1;
+        }
+        .load .txt {
+            position: absolute;
+            left: 50%;
+            top: 450px;
+            width: 200px;
+            height: 20px;
+            font-size: 20px;
+            line-height: 20px;
+            font-weight: bold;
+            color: #fff;
+            transform: translate(-50%,0)
+        }
+        .load .txt span{
+            float: left;
+            width: 100px;
+            height: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="home-page">
+<div class="load" id="load">
+    <span class="bg"></span>
+    <div class="bar">
+        <div class="barcolor"></div>
+    </div>
+    <span class="txt"> <span>loading</span> <span id="numberBar">0%</span></span>
+</div>
+<div class="header">
+    <div class="topbar-bg">
+        <div class="topbar">
+            <div class="log">
+                <h1>网易游戏<a target="_blank" href="##"></a></h1>
+            </div>
+            <div class="userCenter">
+                <a target="_blank" href="##">安卓充值</a>
+                <a target="_blank" href="##">注册账号</a>
+            </div>
+            <div class="catalog" id="catalog">
+                <a target="_blank" href="##" class="btn">
+                    网易游戏目录全
+                    <span></span>
+                </a>
+                <div class="gameList" id="gameList">
+                    <div class="PCD">
+                        <div class="top"><span>客户端游戏</span></div>
+                        <div class="bottom">
+                            <ul class="jsby" id="jsby">
+                                <li>角色扮演</li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                            </ul>
+                            <ul class="jjxx" id="jjxx">
+                                <li>竞技/休闲</li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                                <li><a href="##" target="_blank">我是游戏名</a></li>
+                            </ul>
+                            <a href="##" target="_blank" id="gengduoDy">
+                                更多热门端游
+                            </a>
+                        </div>
+                    </div>
+                    <div class="YDD">
+                        <div class="top"><span>手机游戏</span></div>
+                        <div class="left">
+                            <ul class="hotTj" id="hotTj">
+                                <li>热门推荐</li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="newsTj" id="newsTj">
+                                <li>新品推荐
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##"  target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##"  target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                                <li><a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a><span></span>
+                                    <a href="##" target="_blank">我是游戏名</a>
+                                </li>
+                            </ul>
+                            <a href="##" target="_blank" id="gengduoSy">
+                                更多热门手游
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gameFZ">
+                        <div class="top"><span>游戏辅助</span></div>
+                        <div class="bottom">
+                            <ul class="yxfz" id="yxfz">
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                                <li><a href="##" target="_blank">我是游戏辅助</a></li>
+                            </ul>
+                            <a href="##" target="_blank" id="wangyiyouxi">
+                                网易游戏
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="adLink" id="adLink">
+                <a target="_blank" href="##" id="anzhuo">安卓充值9.8折</a>
+                <a target="_blank" href="##" id="baoxiang">领取网易严选宝箱</a>
+            </div>
+        </div>
+    </div>
+    <!--topbar 结束-->
+    <div class="dbdy">
+        <!--header-content 开始-->
+        <div class="header-bg">
+            <div class="header-content">
+                <a href="##" class="logo" target="_blank" id="logo">
+                    <img src="./index/images/logo_fe3c921.png" alt="">
+                </a>
+                <ul class="nav-list" id="nav-list">
+                    <!--<li><a href="##" target="_blank" >-->
+                        <!--<p>官方渠道</p>-->
+                        <!--<p>CHANNEL</p>-->
+                        <!--<span></span>-->
+                    <!--</a></li>-->
+                    <li><a href="./wealth/basketballGame.html" target="_blank">
+                        <p>福利中心</p>
+                        <p>WALFARE</p>
+                        <span></span>
+                    </a></li>
+                    <li><a href="./choaren-job/bsball.html" target="_blank">
+                        <p>球员介绍</p>
+                        <p>CHARACTER</p>
+                        <span></span>
+                    </a></li>
+                    <li><a href="./news/index.html" target="_blank">
+                        <p>新闻中心</p>
+                        <p>NEWS</p>
+                        <span></span>
+                    </a></li>
+                    <li><a href="##" target="_blank">
+                        <p>官网首页</p>
+                        <p>HOME</p>
+                        <span></span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--header-content 结束-->
+        <div class="bgjpg w">
+            <a href="javascript:;" id="bofng">
+                <p class="video" id="videos"></p>
+                <p class="vdo" id="vdo"></p>
+            </a>
+            <div class="start"></div>
+            <div class="fcode">
+                <div class="code"></div>
+            </div>
+            <a href="javascript:;"> -
+                <p class="iphone"></p>
+            </a>
+            <a href="javascript:;">
+                <p class="android"></p>
+            </a>
+        </div>
+        <div class="select">
+            <div class="seltr w">
+                <div class="wrap">
+                    <div class="bakuag"></div>
+                    <div class="yqsi">
+                        <ul>
+                            <li><a href="javascript:;"><img src="./index/images/5b44b3096f049450a79103ccA3iQlIVf.jfif" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="./index/images/5b44b7d76f04945677c2a5eaELLrFtRg.jfif" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="./index/images/5b8919598b7427245169ae11PLfyZaHI.jfif" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="./index/images/5ba34f3b7f9d2a78fd71d133oL614r0s.jfif" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="newWen">
+                    <div class="newtitle">
+                        <span class="chtitle">新闻中心</span>
+                        <span class="entitle">NEWS</span>
+                        <a href="javaScript:;"></a>
+                    </div>
+                    <div class="newList">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <p class="time">2018-10-23</p>
+                                    <p class="tegog">旗袍特工?《潮人篮球》蒂娜皮肤闪电出击!</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <p class="time">2018-10-23</p>
+                                    <p class="tegog">《潮人篮球》灌篮杯精英邀请赛 大战一触即发！</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <p class="time">2018-10-23</p>
+                                    <p class="tegog">灌篮球员上线，全面更新狂欢不停！新增功能、活动你怎能错过?</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <p class="time">2018-10-23</p>
+                                    <p class="tegog">张宁周锐空降《潮人篮球》，灌篮球员火热来袭！</p>
+                                </a>
+                            </li>
+                            <!--<li>-->
+                                <!--<a href="javascript:;">-->
+                                    <!--<p class="bskball">-->
+                                        <!--<span class="qiu"></span>-->
+                                        <!--<span class="time">2018-10-23</span>-->
+                                    <!--</p>-->
+                                    <!--<p class="tegog">旗袍特工?《潮人篮球》蒂娜皮肤闪电出击!</p>-->
+                                <!--</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="javascript:;">-->
+                                    <!--<p class="bskball">-->
+                                        <!--<span class="qiu"></span>-->
+                                        <!--<span class="time">2018-10-23</span>-->
+                                    <!--</p>-->
+                                    <!--<p class="tegog">旗袍特工?《潮人篮球》蒂娜皮肤闪电出击!</p>-->
+                                <!--</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="javascript:;">-->
+                                    <!--<p class="bskball">-->
+                                        <!--<span class="qiu"></span>-->
+                                        <!--<span class="time">2018-10-23</span>-->
+                                    <!--</p>-->
+                                    <!--<p class="tegog">旗袍特工?《潮人篮球》蒂娜皮肤闪电出击!</p>-->
+                                <!--</a>-->
+                            <!--</li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="swiper" id="swiper">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--侧边栏-->
+<!--<div class="side-bar">-->
+    <!--<div class="s-weixin">-->
+        <!--<div class="s-title">关注公众号</div>-->
+        <!--<div class="s-content">-->
+            <!--<span>-->
+                <!--<img src="./images/qrcode_3cfd181.png" alt="微信公众号" title="微信公众号">-->
+            <!--</span>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="s-qq">-->
+        <!--<div class="s-qq-title">官方Q群</div>-->
+        <!--<div class="qq-qun">-->
+            <!--<ul>-->
+                <!--<li>608465078（一群已满）</li>-->
+                <!--<li>649663090（二群已满）</li>-->
+                <!--<li>688030101（三群已满）</li>-->
+                <!--<li>703073046（四群）</li>-->
+                <!--<li>877674284（五群）</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="go-top"></div>-->
+<!--</div>-->
+
+<!--职业板块-->
+<div class="section-job">
+    <div class="section">
+        <div class="sec-container w">
+            <div class="all-person">
+                <!--杰森-->
+                <div class="JASON person">
+                    <div class="job-info">
+                        <div class="job-video">
+                            <span class="baofa" style="z-index: 5"></span>
+                            <video autoplay loop muted playsinline src="video-pic/video/8ea5ef75c5eb12e9b87af56de5e121f9qt.mp4"  style="position: relative; z-index: 2; border-bottom-right-radius: 40px"  -webkit-playsinline="true" type="video/mp4" class="video" id="video"></video>
+                            <a href="javaScript:;" class="player" id="player" style="z-index: 5"></a>
+                            <i style="z-index: 5"></i>
+                        </div>
+                    </div>
+                    <div class="job-person"></div>
+                    <div class="job-line"></div>
+                    <div class="job-icon"></div>
+                    <a href="javaScript:;" class='more'></a>
+                </div>
+                <!--尼尔-->
+                <div class="NEIL person">
+                    <div class="job-info">
+                        <div class="job-video">
+                            <span class="baofa"></span>
+                            <video src="" class="video" id="video1"></video>
+                            <a href="javaScript:;" class="player" id="player1"></a>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="job-person"></div>
+                    <div class="job-line"></div>
+                    <div class="job-icon"></div>
+                    <a href="javaScript:;" class='more'></a>
+                </div>
+                <!--亚历克斯-->
+                <div class="ALEX person">
+                    <div class="job-info">
+                        <div class="job-video">
+                            <span class="baofa"></span>
+                            <video src="" class="video" id="video2"></video>
+                            <a href="javaScript:;" class="player" id="player2"></a>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="job-person"></div>
+                    <div class="job-line"></div>
+                    <div class="job-icon"></div>
+                    <a href="javaScript:;" class='more'></a>
+                </div>
+                <!--艾力克-->
+                <div class="ERIC person">
+                    <div class="job-info">
+                        <div class="job-video">
+                            <span class="baofa"></span>
+                            <video src="" class="video" id="video3"></video>
+                            <a href="javaScript:;" class="player" id="player3"></a>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="job-person"></div>
+                    <div class="job-line"></div>
+                    <div class="job-icon"></div>
+                    <a href="javaScript:;" class='more'></a>
+                </div>
+                <!--王依-->
+                <div class="YI person">
+                    <div class="job-info">
+                        <div class="job-video">
+                            <span class="baofa"></span>
+                            <video src="" class="video" id="video4"></video>
+                            <a href="javaScript:;" class="player" id="player4"></a>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="job-person"></div>
+                    <div class="job-line"></div>
+                    <div class="job-icon"></div>
+                    <a href="javaScript:;" class='more'></a>
+                </div>
+            </div>
+        </div>
+        <div class="job-nav">
+            <ul>
+                <li class="nav-item current"><i class="sj show"></i></li>
+                <li class="nav-item"><i class="sj"></i></li>
+                <li class="nav-item"><i class="sj"></i></li>
+                <li class="nav-item"><i class="sj"></i></li>
+                <li class="nav-item"><i class="sj"></i></li>
+            </ul>
+            <a href="javaScript:;">
+                查看更多
+            </a>
+        </div>
+    </div>
+    <!--资料站-->
+    <div class="ziliaozhan-bg">
+        <div class="ziliaozhan w">
+            <div class="ziliaozhan-title"></div>
+            <div class="ziliaozhan-list">
+                <ul>
+                    <li class="game-intro move">
+                        <div class="wave">
+                            <div class="wave-move">
+                                <span class="wave-item"></span>
+                                <span class="wave-item"></span>
+                                <span class="wave-item"></span>
+                                <span class="wave-item"></span>
+                            </div>
+                        </div>
+                        <a href="./introduce/篮球游戏项目/index-game1.html" class="pic1" target="_blank"></a>
+                    </li>
+                    <li class="game-feature move">
+                        <div class="wave">
+                            <span class="wave-item"></span>
+                            <span class="wave-item"></span>
+                            <span class="wave-item"></span>
+                            <span class="wave-item"></span>
+                        </div>
+                        <a href="./feature/index.html" class="pic1" target="_blank"></a>
+                    </li>
+                    <!--<li class="game-stra move">-->
+                        <!--<div class="wave">-->
+                            <!--<span class="wave-item"></span>-->
+                            <!--<span class="wave-item"></span>-->
+                            <!--<span class="wave-item"></span>-->
+                            <!--<span class="wave-item"></span>-->
+                        <!--</div>-->
+                        <!--<a href="javaScript: void (0);" class="pic1"></a>-->
+                    <!--</li>-->
+                    <li class="game-img move">
+                        <div class="wave">
+                            <span class="wave-item"></span>
+                            <span class="wave-item"></span>
+                            <span class="wave-item"></span>
+                            <span class="wave-item"></span>
+                        </div>
+                        <a href="./video-pic/index.html" class="pic1" target="_blank"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--官方渠道-->
+    <div class="guangfang">
+        <div class="qudao-content w">
+            <div class="qudao-title"></div>
+            <div class="qudao-list">
+                <div class="weChat"></div>
+                <a href="javaScript:;" class="luntan"></a>
+                <div class="Qqun">
+                    <ul>
+                        <li>608465078(一群已满)</li>
+                        <li>649663090(二群已满)</li>
+                        <li>688030101(三群已满)</li>
+                        <li>703073046(四群)</li>
+                        <li>877674284(五群)</li>
+                    </ul>
+                </div>
+                <a href="javaScript:;" class="weibo"></a>
+                <div class="kefu-tel"><i></i>官方客服热线：95163532</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--底部-->
+<div class="footer">
+    <div class="footer-top">
+        <div class="share">
+            <span>分享到:</span>
+            <ul>
+                <li><a href="javaScript:;" class="iconfont icon-weixin1" style="color: #e5ae3d; font-size: 28px" title="分享到微信"></a>
+                </li>
+                <li><a href="javaScript:;" class="iconfont icon-yixin1" style="color: #e5ae3d; font-size: 28px" title="分享到易信"></a>
+                </li>
+                <li><a href="javaScript:;" class="iconfont icon-weibo" style="color: #e5ae3d; font-size: 28px" title="分享到微博"></a></li>
+                <li><a href="javaScript:;" class="iconfont icon-QQkongjian" style="color: #e5ae3d; font-size: 28px" title="分享到空间"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="friend-link">
+        <span>
+            <a href="javaScript:;">
+                <img src="./index/images/netease.2.png">
+            </a>
+            <a href="javaScript:;">
+                <img src="./index/images/nie.2.png" alt="">
+            </a>
+            <a href="javaScript:;">
+                <img src="./index/images/wen2.png" alt="">
+            </a>
+        </span>
+        <ul>
+            <li><a href="javaScript:;">公司简介</a></li>
+            <li class="line">-</li>
+            <li><a href="javaScript:;">客户服务</a></li>
+            <li class="line">-</li>
+            <li><a href="javaScript:;">相关法律</a></li>
+            <li class="line">-</li>
+            <li><a href="javaScript:;">网易游戏</a></li>
+            <li class="line">-</li>
+            <li><a href="javaScript:;">联系我们</a></li>
+            <li class="line">-</li>
+            <li><a href="javaScript:;">商务合作</a></li>
+            <li class="line">-</li>
+            <li><a href="javaScript:;">加入我们</a></li>
+            </br>
+            <li class="banquan">网易公司版权所有 ©1997-2018</li>
+            <li class="last">
+                <a href="javaScript:;">点击查看家长监护工程></a>
+            </li>
+        </ul>
+        <div class="gaojie">
+            <p>本游戏适合16岁以上的玩家进入。</p>
+            <p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+            <a href="javaScript:;">《网络游戏管理暂行办法》</a>
+            <span>文网游备字[2017] M -CSG0626号</span>
+            <span>《网络文化经营许可证》</span>
+            <span>批准文号：新广出审[2017]3647号</span>
+            <span>出版物号：ISBN 978-7-7979-7049-5 </span>
+            <p>浙网文[2016]0155-055号</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./index/jQurey/jquery-1.12.4.js"></script>
+<script src="./index/jQurey/jQureyW.js"></script>
+<script src="./index/indexJS/animation.js"></script>
+<script src="./index/indexJS/chaoren.js"></script>
+<script src="./index/indexJS/head-index.js"></script>
+<script src="./index/indexJS/head-index.js"></script>
+<script src="./index/indexJS/iconfont.js"></script>
+<script src="./index/indexJS/index1.js"></script>
+<script>
+    var numberBar = document.getElementById("numberBar");
+    var count = 0;
+    var timeid = setInterval(function(){
+        count++;
+        numberBar.innerText = count+"%";
+        if(count>=100){
+            clearInterval(timeid);
+        }
+    },20)
+    setTimeout(function(){
+        var load = document.getElementById("load");
+        load.style.display = "none";
+    },2450);
+</script>
+
+</html>

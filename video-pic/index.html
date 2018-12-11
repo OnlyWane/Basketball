@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>潮人篮球-视频图集</title>
+    <link rel="shortcut icon" href="../icons/favicon.ico">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <style>
+         @keyframes loading-ball {
+            from {
+                transform: translateY(30px);
+            }
+            to {
+                transform: translateY(0px);
+            }
+        }
+        @keyframes loading-bar {
+            from {
+                transform: translateX(0px);
+            }
+            to {
+                transform: translateX(250px);
+            }
+        }
+        .load {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9;
+        }
+        .load span.bg {
+            position: absolute;
+            top: 300px;
+            left: 50%;
+            z-index: 15;
+            width: 55px;
+            height: 55px;
+            margin-left: -27px;
+            background:url("img/pic-ball_5c972bf.png");
+            animation: loading-ball .5s ease  infinite alternate;
+        }
+        .load .bar {
+            position: absolute;
+            top: 400px;
+            left: 50%;
+            width: 250px;
+            height: 16px;
+            transform: translate(-50%,0);
+            border: 3px solid #eec943;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .load .barcolor {
+            position: absolute;
+            top: 0;
+            left: -250px;
+            width: 250px;
+            height: 16px;
+            background-color: #eec943;
+            animation: loading-bar 2s  ease-in-out  alternate forwards;
+            animation-iteration-count:1;
+        }
+        .load .txt {
+            position: absolute;
+            left: 50%;
+            top: 450px;
+            width: 200px;
+            height: 20px;
+            font-size: 20px;
+            line-height: 20px;
+            font-weight: bold;
+            color: #fff;
+            transform: translate(-50%,0)
+        }
+        .load .txt span{
+            float: left;
+            width: 100px;
+            height: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="load" id="load">
+        <span class="bg"></span>
+        <div class="bar">
+            <div class="barcolor"></div>
+         </div>
+         <span class="txt"> <span>loading</span> <span id="numberBar">0%</span></span>
+    </div>
+    <div class="main w" id="main">
+        <div class="top  clearfix">
+            <div class="logo">
+                <a href="#">
+                    <h1>潮人篮球</h1>
+                </a>
+            </div>
+            <div class="link-g">
+                <a href="../index.html"></a>
+            </div>
+        </div>
+        <div class="collect">
+            <div class="title"></div>
+            <div class="video-nav">
+                <div class="nav">
+                    <a href="javascript:;" id="videoItem">
+                        <span></span>
+                    </a>
+                    <a href="javascript:;" id="pictrueItem">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="content video clearfix" id="videoContent">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="./img/01.jpg" alt="">
+                            <div>
+                                <p>《潮人篮球》iOS精彩视频推荐</p>
+                            </div>
+                        </a>
+                        <div class="bg"></div>
+                        <span></span>
+                        <i class="item-top"></i>
+                        <i class="item-bottom"></i>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/02.jpg" alt="">
+                            <div>
+                                <p>《潮人篮球》iOS精彩视频推荐</p>
+                            </div>
+                        </a>
+                        <div class="bg"></div>
+                        <span></span>
+                        <i class="item-top"></i>
+                        <i class="item-bottom"></i>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/03.jpg" alt="">
+                            <div>
+                                <p>《潮人篮球》iOS精彩视频推荐</p>
+                            </div>
+                        </a>
+                        <div class="bg"></div>
+                        <span></span>
+                        <i class="item-top"></i>
+                        <i class="item-bottom"></i>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/04.jpg" alt="">
+                            <div>
+                                <p>《潮人篮球》iOS精彩视频推荐</p>
+                            </div>
+                        </a>
+                        <div class="bg"></div>
+                        <span></span>
+                        <i class="item-top"></i>
+                        <i class="item-bottom"></i>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/05.jpg" alt="">
+                            <div>
+                                <p>《潮人篮球》iOS精彩视频推荐</p>
+                            </div>
+                        </a>
+                        <div class="bg"></div>
+                        <span></span>
+                        <i class="item-top"></i>
+                        <i class="item-bottom"></i>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/06.jpg" alt="">
+                            <div>
+                                <p>《潮人篮球》iOS精彩视频推荐</p>
+                            </div>
+                        </a>
+                        <div class="bg"></div>
+                        <span></span>
+                        <i class="item-top"></i>
+                        <i class="item-bottom"></i>
+                    </li>
+                </ul>
+                <!-- <div class="sel-wrap">
+                    <div class="sel clearfix" id="sel">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                </div> -->
+            </div>
+            <div class="content pictrue clearfix" id="pictureContent">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="./img/580x310-01.jpg" alt="">
+                            <img src="./img/580x310-02.jpg" alt="">
+                            <img src="./img/580x310-03.jpg" alt="">
+                            <img src="./img/580x310-05.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/580x310-02.jpg" alt="">
+                            <img src="./img/580x310-03.jpg" alt="">
+                            <img src="./img/580x310-04.jpg" alt="">
+                            <img src="./img/580x310-01.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/580x310-03.jpg" alt="">
+                            <img src="./img/580x310-03.jpg" alt="">
+                            <img src="./img/580x310-04.jpg" alt="">
+                            <img src="./img/580x310-02.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/580x310-04.jpg" alt="">
+                            <img src="./img/580x310-02.jpg" alt="">
+                            <img src="./img/580x310-04.jpg" alt="">
+                            <img src="./img/580x310-03.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/580x310-05.jpg" alt="">
+                            <img src="./img/580x310-02.jpg" alt="">
+                            <img src="./img/580x310-03.jpg" alt="">
+                            <img src="./img/580x310-06.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/580x310-02.jpg" alt="">
+                            <img src="./img/580x310-03.jpg" alt="">
+                            <img src="./img/580x310-04.jpg" alt="">
+                            <img src="./img/580x310-04.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="share-box">
+                <div class="share clearfix">
+                    <span>分享到:</span>
+                    <a href="">
+                        <i class="iconfont icon-yixin1" style="color:rgb(226, 170, 57);font-size:22px;"></i>
+                    </a>
+                    <a href="">
+                        <i class="iconfont icon-weixin1" style="color:rgb(226, 170, 57);font-size:22px;"></i>
+                    </a>
+                    <a href="">
+                        <i class="iconfont icon-weibo" style="color:rgb(226, 170, 57);font-size:22px;"></i>
+                    </a>
+                    <a href="">
+                        <i class="iconfont icon-kongjian1" style="color:rgb(226, 170, 57);font-size:22px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="link">
+                <div class="cn-logo clearfix">
+                    <a href="javascript:;">
+                        <img src="./img/wangyi.png" alt="">
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./img/game.png" alt="">
+                    </a>
+                    <a href="javascript:;">
+                        <img src="./img/wen.png" alt="">
+                    </a>
+                </div>
+
+                <div class="cn-link">
+                    <i>
+                        <a href="javascript:;">公司简介</a>
+                        <span>-</span>
+                        <a href="javascript:;">客户服务</a>
+                        <span>-</span>
+                        <a href="javascript:;">相关法律</a>
+                        <span>-</span>
+                        <a href="javascript:;">网易游戏</a>
+                        <span>-</span>
+                        <a href="javascript:;">联系我们</a>
+                        <span>-</span>
+                        <a href="javascript:;">商务合作</a>
+                        <span>-</span>
+                        <a href="javascript:;">加入我们</a>
+                    </i>
+                    <i>
+                        网易公司版权所有 &copy;1997-2018
+                        <a href="javascript:;" class="family">点击查看家长监护工程</a>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-list" id="videoBox">
+        <div>
+            <video autoplay loop muted playsinline style="z-index:-1" width="1000px" height="600px" -webkit-playsinline="true"
+                controls="controls" src="./video/a6c66b83b5c883df63bb7f99f182ca03qt.mp4" type="video/mp4">
+            </video>
+            <a href="javascript:;" class="close"></a>
+        </div>
+    </div>
+    <div class="pictru-list" id="pictrueBox">
+        <div class="thumb kort">
+            <img src="./img/580x310-01.jpg" width="550" height="300">
+            <img src="./img/580x310-02.jpg" width="550" height="300">
+            <img src="./img/580x310-03.jpg" width="550" height="300">
+            <img src="./img/580x310-04.jpg" width="550" height="300">
+            <img src="./img/580x310-06.jpg" width="550" height="300">
+            <img src="./img/580x310-05.jpg" width="550" height="300">
+            <img src="./img/580x310-05.jpg" width="550" height="300">
+            <a href="javascript:;" class="close"></a>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery-1.12.4.js"></script>
+<script src="js/video.js"></script>
+<script src="js/kort.js"></script>
+<script>
+    var numberBar = document.getElementById("numberBar");
+    var count = 0;
+    var timeid = setInterval(function(){
+        count++;
+        numberBar.innerText = count+"%";
+        if(count>=100){
+            clearInterval(timeid);
+        }
+    },20)
+    setTimeout(function(){
+        var load = document.getElementById("load");
+        load.style.display = "none";
+    },2450);
+</script>
+</html>

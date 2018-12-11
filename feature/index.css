@@ -1,0 +1,516 @@
+/* 初始化代码 */
+
+body,
+div,
+span,
+p,
+a,
+input,
+img,
+h1,
+h2,
+h3,
+h4,
+strong,
+i,
+em,
+li,
+ul,
+del {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    color: #f10215;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: 0 none;
+    outline: 0 none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    background-color:#f6f6f6;
+}
+
+.w {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* //主体内容开始 */
+.main {
+    height: 2800px;
+    background: url(./img/bg_2071150.jpg);
+}
+
+.main .content .hection-header {
+    width: 920px;
+    height: 221px;
+    position: relative;
+}
+
+.main .content .hection-header .logo {
+    display: inline-block;
+    width: 216px;
+    height: 106px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    line-height: 221px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main .content .hection-header .header-text {
+    display: inline-block;
+    width: 492px;
+    height: 70px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: 0px -332px;
+    position: absolute;
+    left: 280px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    
+}
+.main .content .hection-header .header-rukou {
+    display: block;
+    width: 74px;
+    height: 67px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: -237px -106px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+/* ball-one开始 */
+.main .content .ball-one {
+    height: 552px;
+    position: relative;
+}
+
+.main .content .ball-one .pic-one {
+    position: absolute;
+    top: 80px;
+}
+
+.main .content .ball-one .ball-right {
+    width: 236px;
+    height: 76px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: 0px -106px;
+    position: absolute;
+    left: 950px;
+    top: 80px;
+}
+
+.main .content .s-text {
+    width: 355px;
+    height: 222px;
+    position: absolute;
+    top: 200px;
+    left: 950px;
+}
+
+.main .content .s-text div {
+    color: #a49a33;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.main .content .s-text .text1 {
+   height: 27px;
+   padding-left: 20px;
+}
+
+.main .content .s-text .text2 {
+    height: 54px;
+    width: 360px;
+    margin-top: 30px;
+    margin-left: -50px;
+    padding-left: 45px;
+
+}
+
+.main .content .s-text .text3 {
+    height: 81px;
+    width: 390px;
+    margin-top: 30px;
+    margin-left: -80px;
+    padding-left: 45px;
+}
+
+.main .content .s-text div p {
+    transform: skew(-8deg);
+}
+
+.main .content .s-text div i {
+    display: block;
+    width: 35px;
+    height: 23px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: -216px -77px;
+    position: absolute;
+    left: -43px;
+    top: 7px; 
+}
+
+.main .content .s-text div p .em {
+    color: #f17d0b;
+}
+
+
+/* ball-two开始 */
+.main .content .ball-two {
+    height: 606px;
+    position: relative;
+}
+
+.main .content .ball-two .pic-two {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.main .content .ball-two .ball-right {
+    width: 315px;
+    height: 76px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: 0px -182px;
+    position: absolute;
+    top: 112px;
+    left: 170px;
+}
+
+
+.main .content .ball-two .s-text {
+    width: 355px;
+    height: 222px;
+    position: absolute;
+    top: 200px;
+    left: 170px;
+}
+
+.main .content .ball-two .s-text div {
+    color: #a49a33;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.main .content .ball-two .s-text .text1 {
+   height: 27px;
+   padding-left: 20px;
+   margin-top: 30px;
+}
+
+.main .content .ball-two .s-text .text2 {
+    height: 24px;
+    width: 360px;
+    padding-top: 30px;
+    margin-left: -50px;
+    padding-left: 45px;
+}
+
+.main .content .ball-two .s-text .text3 {
+    height: 51px;
+    width: 390px;
+    padding-top: 30px;
+    margin-left: -80px;
+    padding-left: 45px;
+}
+
+.main .content .ball-two .s-text div p {
+    transform: skew(-8deg);
+}
+
+.main .content .ball-two .s-text div i {
+    display: block;
+    width: 35px;
+    height: 23px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: -216px -77px;
+    position: absolute;
+    left: -43px;
+    top: 7px; 
+}
+
+.main .content .ball-two .s-text div p .em {
+    color: #f17d0b;
+}
+
+
+/* ball-three开始 */
+.main .content .ball-three {
+    height: 579px;
+    position: relative;
+}
+
+.main .content .ball-three .pic-three {
+    position: absolute;
+    top: 80px;
+}
+
+.main .content .ball-three .ball-right {
+    width: 314px;
+    height: 76px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: 0px -258px;
+    position: absolute;
+    left: 950px;
+    top: 80px;
+}
+
+.main .content .ball-three .s-text {
+    width: 355px;
+    height: 222px;
+    position: absolute;
+    top: 200px;
+    left: 950px;
+}
+
+.main .content .ball-three .s-text div {
+    color: #a49a33;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.main .content .ball-three .s-text .text1 {
+   height: 27px;
+   padding-left: 20px;
+}
+
+.main .content .ball-three .s-text .text2 {
+    height: 24px;
+    width: 360px;
+    padding-top: 30px;
+    margin-left: -50px;
+    padding-left: 45px;
+}
+
+.main .content .ball-three .s-text .text3 {
+    height: 51px;
+    width: 390px;
+    padding-top: 30px;
+    margin-left: -80px;
+    padding-left: 45px;
+}
+
+.main .content .ball-three .s-text div p {
+    transform: skew(-8deg);
+}
+
+.main .content .ball-three .s-text div i {
+    display: block;
+    width: 35px;
+    height: 23px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: -216px -77px;
+    position: absolute;
+    left: -43px;
+    top: 7px; 
+}
+
+.main .content .ball-three .s-text div p .em {
+    color: #f17d0b;
+}
+
+/* ball-four开始 */
+.main .content .ball-four {
+    height: 606px;
+    position: relative;
+}
+
+.main .content .ball-four .pic-four {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.main .content .ball-four .ball-right {
+    width: 315px;
+    height: 76px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: -216px 0px;
+    position: absolute;
+    top: 112px;
+    left: 170px;
+}
+
+
+.main .content .ball-four .s-text {
+    width: 355px;
+    height: 222px;
+    position: absolute;
+    top: 200px;
+    left: 170px;
+}
+
+.main .content .ball-four .s-text div {
+    color: #a49a33;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.main .content .ball-four .s-text .text1 {
+    width: 360px;
+   height: 27px;
+   padding-left: 20px;
+   margin-top: 30px;
+}
+
+.main .content .ball-four .s-text .text2 {
+    height: 24px;
+    width: 360px;
+    padding-top: 30px;
+    margin-left: -50px;
+    padding-left: 45px;
+}
+
+.main .content .ball-four .s-text .text3 {
+    height: 51px;
+    width: 390px;
+    margin-left: -80px;
+    padding-left: 45px;
+}
+
+.main .content .ball-four .s-text div p {
+    transform: skew(-8deg);
+}
+
+.main .content .ball-four .s-text div i {
+    display: block;
+    width: 35px;
+    height: 23px;
+    background: url(./img/spriter/index_z_eedacce.png);
+    background-position: -216px -77px;
+    position: absolute;
+    left: -43px;
+    top: 7px; 
+}
+
+.main .content .ball-four .s-text div p .em {
+    color: #f17d0b;
+}
+
+/* 底部通栏开始 */
+.main .but {
+    height: 236px;
+    position: relative;
+}
+
+.main .but .center-one {
+    height: 65px;
+    text-align: center;
+
+}
+
+.main .but .center-one .center-one1 {
+    padding-top: 20px;
+    height: 25px;
+}
+
+.main .but .center-one .center-one1 .two {
+        font-size: 14px;
+        color: #a7a7a7;
+}
+
+.main .but .center-one a span {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    margin-left: 3px;
+    background-color: #a7a7a7;
+    text-align: center;
+}
+
+.main .but .center-one a i {
+    font-size: 20px;
+    color: #2f3034;
+    line-height: 24px;
+}
+
+.main .but .center-one a span:hover {
+    background-color: darkorange;
+}
+
+.main .but .center-two {
+    height: 48px;
+    margin-left: 300px;
+}
+
+.main .but .center-two div {
+    float: left;
+    margin-right: 20px;
+    height: 48px; 
+}
+
+.main .but .center-two .ljone {
+    line-height: 48px;
+}
+
+.main .but .center-two .ljtwo {
+    line-height: 24px;
+}
+
+.nie-cn-nav-i2 span {
+    display: inline-block;
+    background-color: #610000;
+    height: 26px;
+    width: 138px;
+    text-align: center;
+}
+
+.main .content .ball-two,
+.main .content .ball-three,
+.main .content .ball-four {
+    top: 130px;
+}
+
+
+
+
+

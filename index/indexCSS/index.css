@@ -1,0 +1,735 @@
+body {
+    background: url("../images/bg_84227bc.jpg") no-repeat center center;
+    width: 100%;
+    overflow-x: hidden;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 1350px;
+}
+/*侧边栏*/
+.side-bar {
+    position: fixed;
+    top: 150px;
+    right: 0;
+}
+.side-bar .s-weixin {
+    margin-right: 100px;
+}
+.side-bar .s-title {
+    position: relative;
+    font-size: 16px;
+    color: #eeb82b;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.side-bar .s-content {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 30px;
+    border-left: 1px dashed #eeb82b;
+}
+.side-bar .s-content span:before,
+.side-bar .s-content span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid #eeb82b;
+}
+.side-bar .s-content span:before {
+    left: -5px;
+    top: -10px;
+}
+.side-bar .s-content span:after {
+    left: -4px;
+    bottom: -10px;
+}
+.side-bar .s-qq {
+    position: relative;
+    right: -50px;
+}
+.side-bar .s-qq .s-qq-title {
+    position: relative;
+    left: -51px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #eeb82b;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.side-bar .s-qq .s-qq-title:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: -7px;
+    bottom: 2px;
+    background: url("../images/index_z_a1745cb.png") no-repeat;
+    background-position: -2458px -932px;
+}
+.side-bar .s-qq .qq-qun {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.side-bar .s-qq .qq-qun li {
+    position: relative;
+}
+.side-bar .s-qq .qq-qun li:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    bottom: 8px;
+    left: -10px;
+    border-radius: 50%;
+    background-color: #eeb82b;
+}
+.side-bar .go-top {
+    position: relative;
+    width: 46px;
+    height: 44px;
+    background: url("../images/index_z_a1745cb.png") no-repeat;
+    background-position: -2451px -760px;
+    margin: 15px auto;
+    display: none;
+    z-index: 999;
+}
+.side-bar .go-top:hover {
+    background-position: -2451px -715px;
+}
+    /*职业板块*/
+/*职业介绍*/
+.sec-container .JASON .job-info,
+.sec-container .NEIL .job-info,
+.sec-container .ALEX .job-info,
+.sec-container .ERIC .job-info,
+.sec-container .YI .job-info,
+/*视频*/
+.JASON .job-info .job-video,
+.NEIL .job-info .job-video,
+.ALEX .job-info .job-video,
+.ERIC .job-info .job-video,
+.YI .job-info .job-video,
+/*爆发技能*/
+.JASON .job-info .job-video .baofa,
+.NEIL .job-info .job-video .baofa,
+.ALEX .job-info .job-video .baofa,
+.ERIC .job-info .job-video .baofa,
+.YI .job-info .job-video .baofa,
+/*跳转链接*/
+.job-video  .player,
+.job-video  i,
+.section-job .job-line,
+.section-job .job-icon,
+.section-job .more,
+/*职业导航*/
+.section .job-nav,
+.section .job-nav li i,
+.section .job-nav a,
+    /*资料站*/
+.ziliaozhan .ziliaozhan-title,
+.ziliaozhan .ziliaozhan-list .game-intro a,
+.ziliaozhan .ziliaozhan-list .game-feature a,
+.ziliaozhan .ziliaozhan-list .game-stra a,
+.ziliaozhan .ziliaozhan-list .game-img a,
+/*官方渠道*/
+.guangfang .qudao-content .qudao-title,
+.guangfang .qudao-content .qudao-list .weChat,
+.guangfang .qudao-content .qudao-list .luntan,
+.guangfang .qudao-content .qudao-list .Qqun,
+.guangfang .qudao-content .qudao-list .weibo {
+    background: url("../images/index_z_a1745cb.png") no-repeat;
+
+}
+.section-job {
+    width: 100%;
+    background: url("../images/section-job-bg_ec48656.png") no-repeat;
+}
+.section {
+    position: relative;
+}
+.section-job .sec-container{
+    width: 1361px;
+    height: 752px;
+    position: relative;
+    overflow: hidden;
+}
+.section-job .sec-container .all-person {
+    width: 6810px;
+    height: 752px;
+    left: 0;
+    position: absolute;
+}
+.sec-container .person {
+    float: left;
+    width: 1361px;
+    height: 752px;
+    position: relative;
+}
+/*杰森*/
+.all-person .JASON {
+    background: url("../images/job-bg-5_9d492d8.png") no-repeat center center;
+}
+.section-job .JASON .job-person {
+    background: url("../images/job-kv-5_cea282c.png") no-repeat;
+}
+/*尼尔*/
+.all-person .NEIL {
+    background: url("../images/job-bg-4_191eb24.png") no-repeat center center;
+}
+.section-job .NEIL .job-person {
+    background: url("../images/job-kv-4_50ab306.png") no-repeat;
+}
+/*亚历克斯*/
+.all-person .ALEX {
+    background: url("../images/job-bg-3_2728800.png") no-repeat center center;
+}
+.all-person .ALEX .job-person {
+    background: url("../images/job-kv-3_067fe43.png") no-repeat;
+}
+/*艾力克*/
+.all-person .ERIC {
+    background: url("../images/job-bg-1_c873a51.png") no-repeat center center;
+}
+.all-person .ERIC .job-person {
+    background: url("../images/job-kv-1_1946b54.png") no-repeat;
+}
+/*王依*/
+.all-person .YI {
+    background: url("../images/job-bg-2_ffd2cbf.png") no-repeat center center;
+}
+.all-person .YI .job-person {
+    background: url("../images/job-kv-2_e757e60.png") no-repeat;
+}
+.all-person .JASON .job-person,
+.all-person .NEIL .job-person,
+.all-person .ALEX .job-person,
+.all-person .ERIC .job-person ,
+.all-person .YI .job-person  {
+    position: absolute;
+    width: 611px;
+    height: 751px;
+    left: 49%;
+    transform: translateX(-53%);
+}
+.sec-container .JASON .job-info {
+    background-position: -1106px -396px;
+}
+.sec-container .NEIL .job-info {
+    background-position: -1106px -0px;
+}
+.sec-container .ALEX .job-info {
+    background-position: -336px -540px;
+}
+.sec-container .ERIC .job-info {
+    background-position: -10px -540px;
+}
+.sec-container .YI .job-info {
+    background-position: -662px -540px;
+}
+.sec-container .JASON .job-info,
+.sec-container .NEIL .job-info,
+.sec-container .ALEX .job-info,
+.sec-container .ERIC .job-info,
+.sec-container .YI .job-info {
+    width: 331px;
+    height: 397px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.JASON .job-info .job-video,
+.NEIL .job-info .job-video,
+.ALEX .job-info .job-video,
+.ERIC .job-info .job-video,
+.YI .job-info .job-video{
+    position: absolute;
+    width: 206px;
+    height: 126px;
+    margin: 145px 0 0 45px;
+    background-position: -801px -1488px;
+}
+.JASON .job-info .job-video .baofa,
+.NEIL .job-info .job-video .baofa,
+.ALEX .job-info .job-video .baofa,
+.ERIC .job-info .job-video .baofa,
+.YI .job-info .job-video .baofa {
+    width: 176px;
+    height: 77px;
+    position: absolute;
+    top: -36px;
+    left: -40px;
+    background-position: -773px -1838px;
+}
+.JASON .job-info .job-video .video,
+.NEIL .job-info .job-video .video,
+.ALEX .job-info .job-video .video,
+.ERIC .job-info .job-video .video,
+.YI .job-info .job-video .video {
+    width: 206px;
+    height: 126px;
+    position: relative;
+}
+.job-video  .player {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 64px;
+    height: 64px;
+    background-position: -993px -681px;
+    animation: rotate 2s linear infinite;
+    transform-origin: center center;
+}
+
+
+.job-video  i {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%,-51%);
+    background-position: -1002px -817px;
+}
+.job-video  i:hover {
+    background-position: -1002px -881px;
+}
+.section-job .JASON  .job-line,
+.section-job .NEIL  .job-line,
+.section-job .ALEX  .job-line,
+.section-job .ERIC  .job-line,
+.section-job .YI  .job-line {
+    position: absolute;
+    width: 542px;
+    height: 290px;
+    left: 47%;
+    top: 50%;
+    transform: translate(-51%,-50%);
+    background-position: -840px -934px;
+}
+.section-job  .JASON .job-icon {
+    background-position: -1438px -1099px;
+}
+.section-job  .NEIL .job-icon {
+    background-position: -2256px -932px;
+
+}
+.section-job  .ALEX .job-icon {
+    background-position: -2045px -1099px;
+}
+.section-job  .ERIC .job-icon {
+    background-position: -1846px -1099px;
+}
+.section-job  .YI .job-icon {
+    background-position: -1642px -1099px;
+}
+.section-job  .JASON .job-icon,
+.section-job  .NEIL .job-icon,
+.section-job  .ALEX .job-icon,
+.section-job  .ERIC .job-icon,
+.section-job  .YI .job-icon {
+    width: 203px;
+    height: 166px;
+    position: absolute;
+    left: 912px;
+    top: 256px;
+}
+.section-job .JASON .more,
+.section-job .NEIL .more,
+.section-job .ALEX .more,
+.section-job .ERIC .more,
+.section-job .YI .more {
+    position: absolute;
+    width: 204px;
+    height: 62px;
+    left: 905px;
+    top: 482px;
+    background-position: -1642px -1264px;
+}
+.section-job .more:hover {
+    background-position: -1438px -1264px;
+}
+.section .job-nav {
+    position: absolute;
+    width: 134px;
+    height: 470px;
+    top: 110px;
+    right: 0px;
+    padding-top: 71px;
+}
+.section .job-nav li {
+    position: relative;
+    width: 134px;
+    height: 71px;
+    border-top: 1px solid #c17e27;
+    background: url("../images/job-nav-sprites_d3f8cd1.png") no-repeat;
+    background-position: -134px 0;
+}
+.section .job-nav li:last-child {
+    border-bottom: 1px solid #c17e27;
+    background-position: 0 -284px;
+}
+
+.section .job-nav li:nth-child(2) {
+    background-position: 0 -70px;
+}
+
+.section .job-nav li:nth-child(3) {
+    background-position: 0 -140px;
+}
+
+.section .job-nav li:nth-child(4) {
+    background-position: 0 -212px;
+}
+.section .job-nav li:nth-child(1):hover {
+    background-position: -134px 0;
+}
+
+.section .job-nav li:nth-child(2):hover {
+    background-position: -134px -70px;
+}
+
+.section .job-nav li:nth-child(3):hover {
+    background-position: -134px -140px;
+}
+
+.section .job-nav li:nth-child(4):hover {
+    background-position: -134px -212px;
+}
+.section .job-nav li:nth-child(5):hover {
+    background-position: -134px -284px;
+}
+
+.section .job-nav li.current {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.section .job-nav li i {
+    position: absolute;
+    width: 26px;
+    height: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-position: -2246px -913px;
+    display: none;
+}
+
+.section .job-nav li.current i.show {
+    display: block;
+}
+
+.section .job-nav li:hover {
+    background-color: rgba(0, 0, 0, .3);
+}
+.section .job-nav a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding-left: 40px;
+    line-height: 20px;
+    bottom: 50px;
+}
+.section .job-nav a:before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 47px;
+    height: 43px;
+    margin-left: -44px;
+    background: url("../images/index_z_a1745cb.png") no-repeat;
+    background-position: -1834px -883px;
+}
+.section .job-nav a:hover:before {
+    background-position: -2450px -804px;
+}
+.ziliaozhan-bg {
+    height: 318px;
+    margin-top: 30px;
+}
+.ziliaozhan {
+    height: 318px;
+    position: relative;
+}
+.ziliaozhan .ziliaozhan-title {
+    width: 302px;
+    height: 90px;
+    margin: 0 auto;
+    background-position: -2174px -1646px;
+}
+.ziliaozhan .ziliaozhan-list {
+    width: 1200px;
+    height: 228px;
+    margin: 0 auto;
+}
+.ziliaozhan .ziliaozhan-list li {
+    float: left;
+    width: 282px;
+    height: 222px;
+    position: relative;
+    margin: 0 53px;
+}
+.ziliaozhan .ziliaozhan-list  li a {
+    position: absolute;
+    width: 282px;
+    height: 222px;
+    z-index: 2;
+}
+.ziliaozhan .ziliaozhan-list .game-intro a {
+    background-position: -1719px -272px;
+}
+.ziliaozhan .ziliaozhan-list .game-feature a {
+    background-position: -1438px -272px;
+}
+.ziliaozhan .ziliaozhan-list .game-stra a {
+    background-position: -1437px -497px;
+}
+.ziliaozhan .ziliaozhan-list .game-img a {
+    background-position: -2001px -272px;
+}
+.game-intro .wave,
+.game-feature .wave,
+.game-stra .wave,
+.game-img .wave {
+    width: 210px;
+    height: 29px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 37px;
+    left: 49px;
+}
+.ziliaozhan-list .wave .wave-move {
+    width: 848px;
+    height: 29px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+.game-intro  .wave span,
+.game-feature  .wave span,
+.game-stra  .wave span,
+.game-img  .wave span {
+    width: 848px;
+    height: 29px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.game-intro .wave span:nth-child(1),
+.game-feature .wave span:nth-child(1),
+.game-stra .wave span:nth-child(1),
+.game-img .wave span:nth-child(1) {
+    background: url("../images/wave-4_763ad42.png") left;
+}
+ .ziliaozhan-list .wave span:nth-child(2) {
+    background: url("../images/wave-3_46255a7.png") center;
+}
+.ziliaozhan-list .wave span:nth-child(3) {
+    background: url("../images/wave-2_925a952.png") left;
+}
+.ziliaozhan-list .wave span:nth-child(4) {
+    background: url("../images/wave-1_0959ff4.png") center;
+}
+/*官方渠道*/
+.guangfang {
+    height: 335px;
+    margin-top: 180px;
+}
+.guangfang .qudao-content {
+    height: 335px;
+}
+.guangfang .qudao-content .qudao-title {
+    width: 302px;
+    height: 90px;
+    margin: 0 auto;
+    background-position: -246px -1748px;
+}
+.guangfang .qudao-content .qudao-list {
+    height: 245px;
+    margin-top: 30px;
+    position: relative;
+}
+.guangfang .qudao-content .qudao-list .weChat,
+.guangfang .qudao-content .qudao-list .luntan,
+.guangfang .qudao-content .qudao-list .Qqun,
+.guangfang .qudao-content .qudao-list .weibo {
+    float: left;
+    width: 201px;
+    height: 215px;
+    margin: 0 49px;
+}
+.guangfang .qudao-content .qudao-list .weChat {
+    background-position: -1437px  -716px;
+}
+.guangfang .qudao-content .qudao-list .luntan {
+    background-position: -1919px  -495px;
+}
+.guangfang .qudao-content .qudao-list .luntan:hover {
+    background-position: -1718px  -495px;
+}
+.guangfang .qudao-content .qudao-list .Qqun {
+    background-position: -1638px  -716px;
+    /*position: absolute;*/
+}
+.guangfang .qudao-content .qudao-list .weibo{
+    background-position: -2283px  -274px;
+    /*position: absolute;*/
+    /*right: 152px;*/
+}
+.guangfang .qudao-content .qudao-list .weibo:hover {
+    background-position: -2120px  -495px;
+}
+.qudao-content .qudao-list .Qqun ul {
+    padding: 28px 0 0 23px;
+}
+.qudao-content .qudao-list .Qqun li {
+    position: relative;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    padding-left: 32px;
+    text-align: left;
+    vertical-align: middle;
+}
+.qudao-content .qudao-list .Qqun li:before {
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    content: '';
+    background: url("../images/index_z_a1745cb.png") no-repeat;
+    background-position: -2448px  -589px;
+    margin-left: -32px;
+}
+.qudao-content .qudao-list .kefu-tel {
+    position: absolute;
+    height: 19px;
+    line-height: 19px;
+    font: bold 14px '微软雅黑';
+    color: #fff;
+    top: -40px;
+    right: 188px;
+}
+.qudao-content .qudao-list .kefu-tel i {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: url("../images/index_z_a1745cb.png") no-repeat;
+    background-position: -2484px  -318px;
+    margin-left: -32px;
+}
+/*底部*/
+.footer  {
+    margin-top: 20px;
+}
+.footer .footer-top {
+    height: 45px;
+}
+.footer .footer-top .share {
+    width: 240px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 45px;
+    margin: 0 auto;
+    color: #e5ae3d;
+}
+.footer .footer-top .share span {
+    float: left;
+}
+.footer .footer-top .share li {
+    float: left;
+}
+.footer .footer-top .share li a {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 29px;
+    margin: 10px 0 0 10px;
+    border-radius: 50%;
+    background-color: #bb7513;
+}
+
+.footer .friend-link {
+    height: 169px;
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer .friend-link span {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.footer .friend-link a {
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer .friend-link a:first-child {
+    margin: 0;
+}
+.footer .friend-link ul {
+    position: absolute;
+    left: 313px;
+}
+.footer .friend-link li {
+    float: left;
+    margin: 0 2px;
+    color: #fff
+}
+.footer .friend-link li a {
+    color: #fff
+}
+.footer .friend-link li a:hover,
+.footer .friend-link .gaojie a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.footer .friend-link li.banquan{
+    margin-top: 10px;
+}
+.footer .friend-link li.last {
+    margin-left: 108px;
+    margin-top: 4px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #610000;
+}
+.footer .friend-link li.last a {
+    display: block;
+    height: 26px;
+    padding: 0 2px;
+}
+.footer .friend-link .gaojie {
+    position: absolute;
+    top: 58px;
+    color:#fff;
+}
+.footer .friend-link .gaojie a {
+    color: #fff;
+}
+.footer .friend-link .gaojie p {
+    margin: 4px 0;
+}
+.footer .friend-link .gaojie span {
+    position: static;
+}

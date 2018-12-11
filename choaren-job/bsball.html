@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>潮人篮球-球员介绍</title>
+    <link rel="shortcut icon" href="../icons/favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="font_mrf2ul1xb1/iconfont.css">
+    <script src="jquery-1.12.4.js"></script>
+    <script src="swiper-3.4.2.jquery.min.js"></script>
+    <script src="bsball.js"></script>
+    <script src="animation.js"></script>
+</head>
+<body>
+    <!--loading开始-->
+    <div class="load" id="load">
+    <span class="bg"></span>
+    <div class="bar">
+        <div class="barcolor"></div>
+    </div>
+    <span class="txt"> <span>loading</span> <span id="numberBar">0%</span></span>
+</div>
+    <!--loading结束-->
+    <!--topbar开始-->
+    <!--<div class="topbar-bg">-->
+        <!--<div class="topbar">-->
+            <!--<div class="log">-->
+                <!--<h1>网易游戏<a target="_blank" href="##"></a></h1>-->
+            <!--</div>-->
+            <!--<div class="userCenter">-->
+                <!--<a target="_blank" href="##">安卓充值</a>-->
+                <!--<a target="_blank" href="##">注册账号</a>-->
+            <!--</div>-->
+            <!--<div class="catalog" id="catalog">-->
+                <!--<a target="_blank" href="##" class="btn">-->
+                    <!--网易游戏目录全-->
+                    <!--<span></span>-->
+                <!--</a>-->
+                <!--<div class="gameList" id="gameList">-->
+                    <!--<div class="PCD">-->
+                        <!--<div class="top"><span>客户端游戏</span></div>-->
+                        <!--<div class="bottom">-->
+                            <!--<ul class="jsby" id="jsby">-->
+                                <!--<li>角色扮演</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                            <!--</ul>-->
+                            <!--<ul class="jjxx" id="jjxx">-->
+                                <!--<li>竞技/休闲</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a></li>-->
+                            <!--</ul>-->
+                            <!--<a href="##" target="_blank" id="gengduoDy">-->
+                                <!--更多热门端游-->
+                            <!--</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="YDD">-->
+                        <!--<div class="top"><span>手机游戏</span></div>-->
+                        <!--<div class="left">-->
+                            <!--<ul class="hotTj" id="hotTj">-->
+                                <!--<li>热门推荐</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span></li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                        <!--<div class="right">-->
+                            <!--<ul class="newsTj" id="newsTj">-->
+                                <!--<li>新品推荐-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##"  target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##"  target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a><span></span>-->
+                                    <!--<a href="##" target="_blank">我是游戏名</a>-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                            <!--<a href="##" target="_blank" id="gengduoSy">-->
+                                <!--更多热门手游-->
+                            <!--</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="gameFZ">-->
+                        <!--<div class="top"><span>游戏辅助</span></div>-->
+                        <!--<div class="bottom">-->
+                            <!--<ul class="yxfz" id="yxfz">-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a><span></span></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                                <!--<li><a href="##" target="_blank">我是游戏辅助</a></li>-->
+                            <!--</ul>-->
+                            <!--<a href="##" target="_blank" id="wangyiyouxi">-->
+                                <!--网易游戏-->
+                            <!--</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="adLink" id="adLink">-->
+                <!--<a target="_blank" href="##" id="anzhuo">安卓充值9.8折</a>-->
+                <!--<a target="_blank" href="##" id="baoxiang">领取网易宝箱</a>-->
+            <!--</div>-->
+
+        <!--</div>-->
+
+    <!--</div>-->
+    <!--topbar 结束-->
+    <div class="main" id="main">
+        <div class="job-page" id="job-page">
+            <div class="job-nav">
+                <div class="nav-logo"></div>
+                <!--<div class="nav-list">-->
+                    <!--<a href="javascript:void(0)" data-type="c_" class="nav1 active"><span></span></a>-->
+                    <!--<a href="javascript:void(0)" data-type="pf_" class="nav2"><span></span></a>-->
+                    <!--<a href="javascript:void(0)" data-type="sf_" class="nav3"><span></span></a>-->
+                    <!--<a href="javascript:void(0)" data-type="sg_" class="nav4"><span></span></a>-->
+                    <!--<a href="javascript:void(0)" data-type="pg_" class="nav5"><span></span></a>-->
+                <!--</div>-->
+                <a href="../index.html" target="_blank" class="go-gw"></a>
+            </div>
+            <div class="swiper-container swiper-container-horizontal"  id="slick-c" >
+                <!--<div class="center"></div>-->
+                <div class="swiper-wrapper" id="swiper">
+                        <!--swiper-button-disabled-->
+                        <!--swiper-slide-prev-->
+                        <div class="swiper-slide c1  swiper-button-disabled " data-job="c1" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <!--autoplay="autoplay"-->
+                                            <video   src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            杰森的体型时刻提醒着对手，必须留意这名中锋！强壮的身体将对手挡在禁区外，根本不必担心意外，暴力卡位能改变一切。配合不俗的篮板与盖帽能力。必定能做到称霸全场。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div id="J-c1" class="silmscroll s-c1" tabindex="1"
+                                             style="overflow: hidden; outline: none;" init="1">
+                                            他的身影，只要出现在球场上，会让整个球场的每一人都安静下来，屏息等待。起初，是为了躲避故乡的内战，和母亲相依为命，流离失所地颠沛到这座城市。如今的他们，生活条件依然没有好转，在最艰苦的时候，甚至还借了不少钱周转度日。懂事的杰森，从很早开始，就会替母亲分担。为了让母亲的日子能过的好一点，除了白天的苦力活以外，还同时做了不少兼职。也因此，获得了所有球场哥们，好友，甚至对手的尊重。人称“后街圣人”虽然空闲的日子对于杰森来说非常宝贵，但是对于他最大的乐趣—打篮球来说，他不会轻易放弃。由于天生体格强壮，上肢发达，在被多人盯防的情况下，常常爆发出惊人的威慑力，可以让场上的对手呆若木鸡，甚至连连后退。有点小意外的是，体格健硕的他，平时也有细心的一面，种种花，养养草，细腻程度绝对让你想不到。
+                                        </div>
+                                        <div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr"
+                                             style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr"
+                                             style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide c2  swiper-slide-next   " data-job="c2" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            烈火市的街头球场总能看到的女性中锋，排球出身的李玲拥有强大的盖帽和篮板能力，弹跳力甚至比男性中锋更为出色。在她的防守下，对手只能将球传出，因为排球大帽的滋味可不好。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            既是烈火市最佳排球明星，也是整个排球运动的招牌。她却突然坠入了爱河，男主竟然是巴尔迪莫。但凡迷上了任何东西，她都会奋不顾身地投入。如今因为爱情的强烈指引，谁也无法阻挡她进入篮球的领域。虽然没有很多机会学习篮球，但作为排球选手的她，拥有优越的身体条件及运动神经，已经让篮球明星们感到非常紧张。如果在这种情况下全身心投入，其潜力是不言而喻的。她的前景不禁让人充满期待。
+                                        </div>
+                                        <div id="ascrail2001" class="nicescroll-rails nicescroll-rails-vr"
+                                             style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div id="ascrail2001-hr" class="nicescroll-rails nicescroll-rails-hr"
+                                             style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide c3   " data-job="c3" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            只要杨在场上，那么他就是队伍的核心。他不仅仅是高，强大的得分能力与不俗的篮板能力让他在篮下不惧怕任何人。特别是他的天勾绝技，让对手无可奈何。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            外表阳光正义的篮球高手。可以说，是球场正义的代言人。外表中欧混血的他，加上随和谦让的性格，让他在哪里都能混的很好。因为从小异于常人的身体素质，斯蒂文杨很快就进入到职业篮球的成长路线。高中篮球时期，就被巨岛 的篮球队“恐龙队”看中，稍加特训后，便以正印中锋的位置带领球队开始了辉煌的赛季。即使后来由于年龄的缘故，退居教练组，依然有一腔热血，看到值得培养的新人，总忍不住灌注自己的心血。而闲暇之余，也爱带着众弟子到街头“实战”训练，一旦遇到高手，他便会认真起来，情急的时候，甚至会使出他当年赖以成名的绝技使对手深深的绝望。
+                                        </div>
+                                        <div id="ascrail2002" class="nicescroll-rails nicescroll-rails-vr"
+                                             style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div id="ascrail2002-hr" class="nicescroll-rails nicescroll-rails-hr"
+                                             style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide c4   " data-job="c4" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            艾拉相比传统意义上的中锋来说较为灵活，擅长补位防守，并利用其强大的盖帽技巧往往是反败为胜的关键，弹跳是艾拉的弱项，所以在篮下的竞争中需要靠脚步与卡位来占得先机。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            独角兽集团的专属超模。靓丽的外表加上高挑的身材使她有了成为名模的梦想。然而高中时期的她，身高已经达到了190cm，过高的身高已经令她不适合成为模特了。当她不得不放弃自己的梦想时，篮球教练推荐她打篮球。虽然起初并不太在意，却在激发了自身的天赋后，取得了巨大的成功。由于自身优越的身体条件，艾拉不仅征服了女子篮球，在与男子球员较量中也毫不逊色。并且通过篮球，成为了独角兽集团篮球专属模特，圆了她的模特梦。或许是相比其他人，成功来得比较晚，她对现状并不满意，无论是作为球员还是作为模特，她都希望可以更上一层楼。所以她会把所有人都看作她的对手，只有打败了他们，她才可以站在最高点。第一个目标就是篮球idol玛丽，她一边喊着“击败玛丽”，一边拼命训练。除了篮球和模特工作，为了扩充自己的交际圈，她也会常常参加社交派对。
+                                        </div>
+                                        <div id="ascrail2003" class="nicescroll-rails nicescroll-rails-vr"
+                                             style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div id="ascrail2003-hr" class="nicescroll-rails nicescroll-rails-hr"
+                                             style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide c5   " data-job="c5" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            过去的艰难经历是他决心强大的理由，盖帽和篮板优势奠定了他作为中锋在篮下的绝对统治力。雷霆之怒释放的不仅仅是愤怒，还有巴尔迪莫对命运最有力的回击。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            在他还小的时候，父亲因伤退役后迷上了赌博，因此度过了十分艰难的童年。在父母蒙受诈骗去世后，留给幼年巴尔迪莫的就只有存入雷鬼音乐的MP3和篮球。孤身一人的巴尔迪莫，为了在这样的世界中生存下去，靠着小时候父亲教给他的篮球技术以及优越的身体条件在贫民区打篮球赌博为生。在这个过程中接触了太多黑暗的一面，致使他从喜爱雷鬼音乐的阳光少年变得可怕起来了，也因为凶狠而果决的身手被人们称为“死神”。原本以为他的杀气会让对手退避三舍，相反却吸引了更多高手前来挑战。而最近，一个名叫玛丽的女孩猝不及防地出现在他生命里，让巴尔迪莫常年封闭的内心产生了一丝涟漪。这是一种从未有过的感觉，令他既无法放松警惕，又无法神经紧绷。真是一种两难的情况！
+                                        </div>
+                                        <div id="ascrail2004" class="nicescroll-rails nicescroll-rails-vr"
+                                             style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div id="ascrail2004-hr" class="nicescroll-rails nicescroll-rails-hr"
+                                             style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pf1   " data-job="pf1" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            过去的艰难经历是他决心强大的理由，盖帽和篮板优势奠定了他作为中锋在篮下的绝对统治力。雷霆之怒释放的不仅仅是愤怒，还有巴尔迪莫对命运最有力的回击。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            在他还小的时候，父亲因伤退役后迷上了赌博，因此度过了十分艰难的童年。在父母蒙受诈骗去世后，留给幼年巴尔迪莫的就只有存入雷鬼音乐的MP3和篮球。孤身一人的巴尔迪莫，为了在这样的世界中生存下去，靠着小时候父亲教给他的篮球技术以及优越的身体条件在贫民区打篮球赌博为生。在这个过程中接触了太多黑暗的一面，致使他从喜爱雷鬼音乐的阳光少年变得可怕起来了，也因为凶狠而果决的身手被人们称为“死神”。原本以为他的杀气会让对手退避三舍，相反却吸引了更多高手前来挑战。而最近，一个名叫玛丽的女孩猝不及防地出现在他生命里，让巴尔迪莫常年封闭的内心产生了一丝涟漪。这是一种从未有过的感觉，令他既无法放松警惕，又无法神经紧绷。真是一种两难的情况！
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pf2   " data-job="pf2" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            神秘的蒂娜总能带给人们更多的幻想。神奇的空切技能能迅速的制造空位，为球队得分。同时空切也是对手的噩梦，辛苦得来的空位对于蒂娜来说就是一个大火锅。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            冒充消失已久的传说Code0，她突然出现在烈火岛。除了自称是消失已久的传奇选手“Code0”，且佩戴奇怪的面具，其他均不为人知，因而散发着既可怕又神秘的氛围。因为该面具，时常被混混们挑衅，但利用特工武术收拾了他们几次后，她常出没的烈火岛第二区反而重现和平。就是这样一个无法靠近，且几乎不讲话的女子。有传言说，如果通过篮球比赛赢了她，她都会给出一个关于自己的提示。因此，有很多篮球明星正在向她挑战，当然几乎没有成功的人。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pf3   " data-job="pf3" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            如果光看体型，你甚至会认为他是一名中锋。192的身高，配合令人难以置信的弹跳能力，让他在篮下占尽优势。给足对手压力的同时再来几个无视防守的金刚灌篮。美滋滋。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            因为职业篮球而跑到烈火市的青年。由于篮球在出生地不是很热门，从小喜欢打篮球的席尔瓦很少与朋友玩耍，经常孤身一人。对篮球的热情使他很早从家中独立，离开家乡定居在从小憧憬的老城区。刚开始生活比较困难，但席尔瓦一边在认同他的节奏感和才能的约瑟夫的帮助下，一边做街头舞者获得温饱的收入来维持生活。此外最近兼做玛丽的“Beautiful basket”的舞蹈队，也认识到了玛丽。作为独行侠的他，比起打配合更有偏向于提高自身能力的强迫症。但席尔瓦把街舞者特有的节奏感和力量融入到了篮球，短时间快速成长为强力选手之一。最近认识到朋友之后，这种强迫症也消减了很多，成为了街头篮球界的新星。也被细心人发现喜欢读书，多么令人诧异的意外！
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pf4   " data-job="pf4" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            一场有阿尔曼多的比赛必定是精彩绝伦的，他就像全能的王一样让对手难以招架。精准的中投，不俗的对抗与弹跳能力，再加上他那震撼全场的强力篮板。你会庆信他不是你的对手。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            一个追逐骑士装，追逐男子气概，充满梦想的男人。曾经在火灾现场，与救了自己的飞车党老大一见如故，从此踏入了飞车党。他凭借特有的求胜欲望，不断努力，最终成为了支配烈火市最大飞车党的老大。原本以为就此与摩托车不离不弃，孤独终生的他，却也迎来了春天。这个球员就是有名的偶像歌手玛丽。阿尔曼多看待其他女人就如同石头，但在玛丽面前他只是一个害羞的粉丝而已。因为玛丽喜欢篮球，他也毫不犹豫踏入了篮球世界。凭借执着的求胜欲望，往往能够营造出凶狠果敢的比赛气场，从而掌控比赛的节奏。由于在飞车党里拥有卓高的声望，有不少骑手纷纷跑来加油助威。喜欢墨西哥玉米片和土耳其烤肉。不知为何不由自主地讨厌美少年。加入飞车党的人员中，据说花美男是淘汰首选。也许是小时候有过伤痛，但至今没有哪位勇者敢于提及阿尔曼多的伤痛……
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sf1   " data-job="sf1" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            艾力克有狂妄的资本。帅气的外表，灵活的走位，漂亮的投篮，再加上他那时常引起欢呼的转身投篮绝技。让他成为烈火市的超新星。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            一个追逐骑士装，追逐男子气概，充满梦想的男人。曾经在火灾现场，与救了自己的飞车党老大一见如故，从此踏入了飞车党。他凭借特有的求胜欲望，不断努力，最终成为了支配烈火市最大飞车党的老大。原本以为就此与摩托车不离不弃，孤独终生的他，却也迎来了春天。这个球员就是有名的偶像歌手玛丽。阿尔曼多看待其他女人就如同石头，但在玛丽面前他只是一个害羞的粉丝而已。因为玛丽喜欢篮球，他也毫不犹豫踏入了篮球世界。凭借执着的求胜欲望，往往能够营造出凶狠果敢的比赛气场，从而掌控比赛的节奏。由于在飞车党里拥有卓高的声望，有不少骑手纷纷跑来加油助威。喜欢墨西哥玉米片和土耳其烤肉。不知为何不由自主地讨厌美少年。加入飞车党的人员中，据说花美男是淘汰首选。也许是小时候有过伤痛，但至今没有哪位勇者敢于提及阿尔曼多的伤痛……
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sf2   " data-job="sf2" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            杰西应该算是烈火市投篮最不准的前锋了，但她却是最难防守的。她的速度无与伦比。跑位-投篮，掌握好节奏，你就是烈火市最厉害的得分手。速度同样带来了强大的防守能力，让对手苦不堪言。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            杰西应该算是烈火市投篮最不准的前锋了，但她却是最难防守的。她的速度无与伦比。跑位-投篮，掌握好节奏，你就是烈火市最厉害的得分手。速度同样带来了强大的防守能力，让对手苦不堪言。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sf3   " data-job="sf3" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            <p></p>
+                                            烈火市绝不会有比安吉拉在球场上挥汗更Cool的事了！场边围满了人，就为目睹犀利姐的招牌动作。突破-魅影转身-射篮得分！更多幻想，更多臣服。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            中性魅力十足的她，不仅拥有众多女性粉丝，而且还是自己一手创建的豪华百货代言人。小时候，成天和男生玩在一起，所以球风非常硬朗犀利，在村子里已经没有对手了。尽管在多方面拥有才能和人气，但本人却没有明确的梦想或目标。就在她彷徨踯躅的时候，偶然间遇到了杰西，突然的有一股莫名的感动，于是坚定地追随了她。一直到现在，无论周围有多少球迷跟随，她的眼里只有杰西。无论在生活上，还是在事业上，杰西都给了她莫大的帮助和鼓励，从经营小型日用品店开始，一步一步，实现了自己的梦想。作为成功人士的她，每天兼顾自己事业的同时，还不忘照顾杰西的起居，无微不至。在赛场上，即使打相同位置，两个人的默契也是毫无间隙，经常联手打得对方毫无脾气，因此，人称“球场双重奏”。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sf4   " data-job="sf4" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            <p></p>
+                                            别因为外表而对他有所看轻，年龄可不是这个球场决胜的唯一因素。没人跟得上小前锋约瑟夫的虚幻舞步，即使他已经为这些可爱的年轻人们放慢了脚步。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            中性魅力十足的她，不仅拥有众多女性粉丝，而且还是自己一手创建的豪华百货代言人。小时候，成天和男生玩在一起，所以球风非常硬朗犀利，在村子里已经没有对手了。尽管在多方面拥有才能和人气，但本人却没有明确的梦想或目标。就在她彷徨踯躅的时候，偶然间遇到了杰西，突然的有一股莫名的感动，于是坚定地追随了她。一直到现在，无论周围有多少球迷跟随，她的眼里只有杰西。无论在生活上，还是在事业上，杰西都给了她莫大的帮助和鼓励，从经营小型日用品店开始，一步一步，实现了自己的梦想。作为成功人士的她，每天兼顾自己事业的同时，还不忘照顾杰西的起居，无微不至。在赛场上，即使打相同位置，两个人的默契也是毫无间隙，经常联手打得对方毫无脾气，因此，人称“球场双重奏”。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sf5   " data-job="sf5" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            <p></p>
+                                            如果你想找个朋友去球场上出出汗，基恩是个合适的人选。作为小前锋他属性平衡，攻守兼备。关键时刻他的爆发技能更让人防不胜防。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            在全国高校比赛中，基恩率队获得冠军并加冕MVP，这使他一夜成名。特别是在被称为篮球不毛之地的东区，凭借自己一个人的能力把队带到冠军，这也是媒体关注的重点。遗憾的是，每次采访中自我陶醉式的发言使他的人气下滑，要知道这才是个接触篮球一年的新人。不带上他的班主任凯瑟琳，基本都没办法和他进行正常的采访交流。只要高校毕业就能进职业篮球队的超级新星，小时候却跟篮球没有接触，只想着继承作为家业的渔业。无意中发现了基恩的篮球天赋，凯瑟琳把他培养成现在的高校最强。起步虽然晚一点，但投入到篮球的基恩的目标只有一个，那就是打倒篮球高手证明自己是世界第一。所以评价其他人的时候，除了篮球高手以外，一点兴趣都没有，更不会记得压倒性赢得的对手。但老师凯瑟琳的话他是会听的。除了篮球以外，喜欢睡懒觉，很符合他对其余一点兴趣都没有的个性了。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sg1   " data-job="sg1" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            来自学院派的重型明星后卫，既拥有坦克般强健的身材还拥有一手细腻的三分，具备强大篮下冲击力的同时还极具外线威胁，他自信的干拔三分是所有防守者的噩梦。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            张宁在这就是灌篮大杀四方之后四处寻找新的宿敌，终于在某一天造访烈火市，他恐怖的三分雨尤其是无视距离的超远射程让雷蒙，威利，布莱尼，查理斯，王依，R-18等一众SG闻之色变。传闻在地下球市中曾有一场神秘三分大战，比赛的结果所有人都讳莫如深，只知道从此烈火市流传着一句话，名师大将莫自牢，三分如雨如风飘。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sg2   " data-job="sg2" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            虽然极力否认自己是某NBA明星。但在球场上精准的3分，出色速度，令人怀念的绝技-曼巴之吻。大家都相信，他就是球场的王者。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            烈火市有一个从小热爱篮球和观看篮球赛的小孩，长大之后流浪他乡，突然在一个明媚的午后低调归来。没人知道他这些年经历了什么，但从他的装扮可以一眼看出他是谁的粉丝。有些眼盲的小球迷甚至将他和本尊混淆，当然，他每次都充满耐心地去给他们解释，并且给他们灌输他偶像的光彩历史。当然，对于Fever 小城来说，维兹就是他们心中的明星，仿佛那些著名的球员一样，他对篮球充满热爱，并且刻苦训练，日复一日。对他来说，人生目标不只是得到大家的尊敬和崇拜，更是击败一个又一个顶尖高手，完成人生的大满贯。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sg3   " data-job="sg3" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            和高手比赛能创造空位出手的难度可想而知。布莱尼背身过人的绝技再加上她出色的移动速度，不俗的3分能力，绝对是理想型的分卫。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            一个西部神秘国的小公主，为了躲避父亲的唠叨，冒险来到了烈火市。拥有神秘能力的她，往往做出一些惊人的举动，平时酷爱看电影和模仿。自从接触了COSPLAY后，就一发不可收拾，每天总是能变化出各种新奇的装扮。突然接触篮球的她，对这个领域充满新奇。每天全神贯注地练习，更激发了她独特的超能力。每次在球场上不经意地激发时，总能把对手晃得猝不及防，有些专注力差的，更是踉跄倒地。从她得意的表情上，可以看出，她对这项运动充满浓厚的兴趣。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide sg4   " data-job="sg4" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            "全神贯注，弹无虚发！"当你听到这句话时，查理斯必定为球队来带了宝贵的3分。英俊帅气的形象，配合神乎其技的3分能力。他就是球场的焦点。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            拥有超高颜值的外表和无与伦比的魅力，身为资深艺人的他，在各个领域都有不小的成就，而他显然也并没有只满足于此。俗话说文体不分家，在演艺事业如日中天的时候，他高调宣布进入运动领域，而第一项最感兴趣的，自然是篮球。身形潇洒，风度翩翩的他，打起篮球来丝毫不逊色，并非大多数人以为的3分钟热度+绣花枕头。因为做任何事情都秉着严肃认真的态度，在篮球领域也快速吸粉，拥有大量的拥趸。但作为知名偶像的他，丝毫不为所动，依然专注地打好每一场比赛。对他来说，任何一场比赛，任何一次投篮，都是一种升华和提炼。在这个过程中，他掌握了一种独特的专注姿势，只要给他几秒钟的空档，他可以送你一个绝望的3分。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pg1   " data-job="pg1" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            听到亚历克斯这个名字，不少内线都捏出一把汗。不论跑动速度还是抢断的的成功率他都算是烈火市数一数二的，最令人不安的还属他的爆发技，在你以为已经稳操胜券时就是他出手的时候。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            人称“神之手”的亚历克斯，从小和身为街头表演家的父母一起长大，耳闻目染之中，拥有了敏锐的洞察力和过人的身手。即使在父母病倒后，依然可以靠自己的双手“丰衣足食”。只是偷窃的行为并没有那么光彩，以至于在青少年时期，大部分的光阴，都在监狱中度过。盗窃成瘾的他，已经无法自拔，但就在这令人绝望的困境之时，他遇到了切瑟，一个欣赏他的天赋并将篮球带进他世界的人。因为一些不为人知的缘故，著名篮球运动员切瑟，也锒铛入狱。巧合的是，他和亚历克斯一间囚室，在互相了解的过程中，他教会了亚历克斯非常多的招式，以至于最后离开监狱的时候，小亚已经难逢敌手了。出狱之后，因为有了更广阔的世界，行窃对于他来说，也没有什么值得留恋的了。不过令人诧异的是，他的球风中带有浓重的诡诈痕迹，往往在对手尚未看清的时候，球已被抢断。即使是警方用来监控他的先进设备，也对此毫无洞察。至于为何会有警方监控他，就不得不提到之前和曼迪斯公司结下的梁子了，说到这里，小亚对他之前的成就，还满是得意，真是让人哭笑不得。谁能想到，一个爱吃花生酱的大男孩，除了爱听老歌爱看小说以外，还有那么多故事，而这些，都浓缩在了他的球场杀招，令人绝望的无影绝偷：“抢断抓球”里了。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pg2   " data-job="pg2" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            千万不要小看这名女性控卫，在对付分卫上她可是很有心得。在场上先逼迫对手传球再释以拦截抓球，转守为攻。她的得分能力也是值得注意的，精准的投篮命中率时常让对手吃尽苦头。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            老城区最具人气的偶像少女三人组 “Beautiful Basket”的高冷颜值担当。正如组合的名字，实力和对篮球的独到见解，是入组人选的必备能力。玛丽，之所以能从众多人选中脱颖而出，得益于她的职业篮球运动员老爸。在组合里，她也是主打PG的位置，从容冷静，组织推进，经常展现出与她这个年龄不相称的冷静沉稳。也因此，得到了所有粉丝和观众的认同。从不少采访中，大家熟知，她对篮球的了解和掌握基本都源于她的老爸，也因此传承了他老爸的绝活，每次球落地的刹那，能以迅雷不及掩耳之势闪身腾挪，抓球怀中。自从她的父亲环游世界后，她便开始和好友王依一起练球，一起成长。王依也因此获得了更多的关注，但那是另一个故事了。性格独立的玛丽，偏爱冻双皮奶的口味，而同时，却讨厌犹豫不决的性格，是不是很奇怪的女孩！
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pg3   " data-job="pg3" >
+                            <div class="person"></div>
+                            <div class="job">
+                                <div class="lt">
+                                    <div class="line">
+                                        <div class="rotate"></div>
+                                    </div>
+                                    <div class="video">
+                                        <div class="video-wrap">
+                                            <video    src="img/job/c1/8c0c9899-bc5a-4431-b1a1-36f10d31b40c.mp4" width="100%" height="100%" muted=""></video>
+                                        </div>
+                                        <div class="title"></div>
+                                        <div class="btn player" data-popvideo="true" data-mp4="" data-autoplay="true">
+                                            <div class="rotate"></div>
+                                        </div>
+                                        <div class="desc"></div>
+                                    </div>
+                                </div>
+                                <div class="lb">
+                                    <div class="line">
+                                        <div class="roate"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <div class="title"></div>
+
+                                        <div class="detail-word">
+                                            你无法想象一名会传球的控卫在烈火市是多么受欢迎。传球绝技盖过了她精准的中投能力，不俗的跑动速度。大家看到的都是在最紧要关头绝杀传球带来的紧张，刺激和获得胜利后的欢雀。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rt">
+                                    <div class="line"></div>
+                                    <div class="person-name"></div>
+                                </div>
+                                <div class="story">
+                                    <div class="line"></div>
+                                    <div class="title"></div>
+                                    <div class="story-word">
+                                        <div class="silmscroll" tabindex="1" style="overflow: hidden; outline: none;" init="1">
+                                            由于内向的性格，伊莉娜不太会与人接触。在家玩篮球游戏是她惟一的乐趣，实际是著名游戏“World basket”的世界第一。有一天伊莉娜被游戏秀邀请到线下聚会，过程中半强制地被推上篮球场打篮球，却意外打出了神一般的技术并受到关注。就这样不经意间进入了篮球世界，因为不太会拒绝，不管哪里有比赛叫她都会去。由于不是从小培养的运动员，身体能力提升比较差，但位置选定能力和球场上的洞察力很灵敏，所以有着掌控全局的能力。内向的性格导致每次采访她都比较困难，在男人面前甚至都不敢对上眼。如果想要打开话题，送上她最爱的草莓蛋糕和咖喱可能会有一丝希望。
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-vr"
+                                              style="width: 28px; z-index: 3; background: transparent; cursor: default; position: absolute; top: 0px; left: 192px; height: 98px; opacity: 1; display: block;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: relative; top: 0px; float: right; width: 28px; height: 32px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px;"></div>
+                                        </div>
+                                        <div  class="nicescroll-rails nicescroll-rails-hr"
+                                              style="height: 28px; z-index: 3; background: transparent; top: 70px; left: 0px; position: absolute; opacity: 1; cursor: default; display: none; width: 192px;">
+                                            <div class="nicescroll-cursors"
+                                                 style="position: absolute; top: 0px; height: 28px; width: 220px; background-color: transparent; border: none; background-clip: padding-box; border-radius: 5px; left: 0px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="swiper-button-prev swiper-button-disabled"><p></p></div>
+                <div class="swiper-button-next"><p></p></div>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="footer-main">
+                <p class="footer-logo"><a href="##"><img src="img/spriter/netease.2.png" alt=""></a></p>
+                <p class="footer-logotwo"><a href="##"><img src="img/spriter/nie.2.png" alt=""></a></p>
+                <p class="footer-logothree"><a href="##"><img src="img/spriter/wen2.png" alt=""></a></p>
+                <p class="share-to">分享到:</p>
+                <div class="icon-btn">
+                    <ul>
+                        <li><a href="##" ><i class="iconfont one">&#xe618;</i></a></li>
+                        <li><a href="##" ><i class="iconfont two">&#xe605;</i></a></li>
+                        <li> <a href="##" > <i class="iconfont three">&#xe648;</i></a></li>
+                        <li>  <a href="##" > <i class="iconfont four">&#xe67c;</i></a></li>
+                    </ul>
+                </div>
+
+                <div class="desc">
+                    <ul>
+                        <li><a href="##">公司简介</a></li>
+                        <li>-</li>
+                        <li><a href="##">客户服务</a></li>
+                        <li>-</li>
+                        <li><a href="##">相关法律</a></li>
+                        <li>-</li>
+                        <li><a href="##">网易游戏</a></li>
+                        <li>-</li>
+                        <li><a href="##">联系我们</a></li>
+                        <li>-</li>
+                        <li><a href="##">商务合作</a></li>
+                        <li>-</li>
+                        <li><a href="##">加入我们</a></li>
+                    </ul>
+                </div>
+                <p class="suoyou ">网易公司版权所有 ©1997-2018 </p>
+                <p class="jiazhang"> <a href="#">点击查看家长监护工程 > </a></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        //loading
+        var numberBar = document.getElementById("numberBar");
+        var count = 0;
+        var timeid = setInterval(function(){
+            count++;
+            numberBar.innerText = count+"%";
+            if(count>=100){
+                clearInterval(timeid);
+            }
+        },20)
+        setTimeout(function(){
+            var load = document.getElementById("load");
+            load.style.display = "none";
+        },2450);
+        // setTimeout(function(){
+        //     var load = document.getElementById("load");
+        //     load.style.display = "none";
+        // },2450);
+        //loading
+    </script>
+</body>
+</html>

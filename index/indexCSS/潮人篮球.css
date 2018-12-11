@@ -1,0 +1,272 @@
+.dbdy {
+    width: 100%;
+}
+.dbdy .bgjpg {
+    /*width: 100%;*/
+    height: 776px;
+    background-size: cover;
+    position: relative;
+}
+.dbdy .bgjpg .video {
+    width: 126px;
+    height: 96px;
+    background: url(../images/index_z_a1745cb.png) -1848px -1645px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+.dbdy .bgjpg .video:hover {
+    background-position: -1722px -1645px;
+}
+.dbdy .bgjpg .vdo {
+    width: 128px;
+    height: 96px;
+    background: url(../images/index_z_a1745cb.png) -1720px -1646px;
+    position: absolute;
+    top: 202px;
+    left: 506px;
+    display: none;
+}
+.dbdy .bgjpg .start {
+    width: 786px;
+    height: 386px;
+    background: url(../images/index_z_a1745cb.png) -54px -940px;
+    position: absolute;
+    top: 154px;
+    left: 288px;
+}
+.dbdy .bgjpg .fcode {
+    width: 112px;
+    height: 112px;
+    border-right: 1px solid #c89d00;
+    border-top: 1px solid #c89d00;
+    position: absolute;
+    top: 570px;
+    left: 498px;
+}
+.dbdy .bgjpg .fcode .code {
+    width: 102px;
+    height: 102px;
+    background: url(../images/donwload-qrcode_0a5221e.png);
+    background-size: cover;
+    border: 4px solid #f9c804;
+    position: absolute;
+    top: 50%;
+    margin-top: -51px;
+    left: 50%;
+    margin-left: -58px;
+}
+.dbdy .bgjpg .iphone {
+    width: 168px;
+    height: 48px;
+    background: url(../images/index_z_a1745cb.png) -232px -1976px;
+    position: absolute;
+    top: 572px;
+    left: 620px;
+}
+.dbdy .bgjpg .android {
+    width: 168px;
+    height: 48px;background: url(../images/index_z_a1745cb.png) -572px -1976px;
+    position: absolute;
+    top: 634px;
+    left: 620px;
+}
+.dbdy  .select {
+    width: 100%;
+    height: 262px;
+    position: relative;
+    top: 90px;
+}
+.dbdy .select .seltr {
+    height: 100%;
+    /* background-color: blue; */
+}
+.dbdy .select .seltr .wrap {
+    width: 572px;
+    height: 262px;
+    position: relative;
+}
+.dbdy  .select .bakuag {
+    width: 570px;
+    height: 260px;
+    border: 1px solid #326992;
+    transform: rotate(1.3deg);
+    position: absolute;
+}
+.dbdy  .select .yqsi {
+    width: 570px;
+    height: 260px;
+    border: 1px solid #fea35b;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.dbdy .select .yqsi ul {
+    height: 260px;
+    position: absolute;
+}
+.dbdy .select .yqsi ul li {
+    position: absolute;
+}
+.dbdy .select .seltr .newWen {
+    width: 442px;
+    height: 262px;
+    position: absolute;
+    top: -24px;
+    right: 70px;
+}
+.dbdy .select .newWen .newtitle {
+    height: 52px;
+    border-bottom: 1px dashed #fea35b;
+    margin-bottom: 15px;
+}
+.newtitle a  {
+    position: absolute;
+    display: inline-block;
+    width: 47px;
+    height: 43px;
+    margin-left: -44px;
+    background: url(../images/index_z_a1745cb.png) no-repeat;
+    background-position: -1834px  -883px;
+    right: 0;
+}
+.newtitle a:hover {
+    background-position: -2450px -804px;
+}
+.newWen .chtitle {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #d49f3f;
+    line-height: 52px;
+}
+.newWen .entitle {
+    font-style: italic;
+    font-weight: bold;
+    color: #513c08;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.dbdy .bgjpg .select .newmore {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    /* background-color: blue; */
+    right: 15px;
+    top: 0;
+}
+.dbdy .newWen .newmore .gedo {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #3c2f07;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    transform: rotate(45deg);
+}
+.dbdy .newWen .newmore .jahao {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #b69324;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 26px;
+    line-height: 24px;
+    /*color: #dcdcdc;*/
+}
+.newWen {
+    width: 500px;
+    height: 260px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dbdy .newWen .newmore .gode {
+    position: absolute;
+    display: none;
+    width: 44px;
+    height: 44px;
+    background: url(../images/index_z_a1745cb.png) -2450px -804px;
+}
+.dbdy .newWen .newList {
+    width: 100%;
+    /*height: 234px;*/
+    position: absolute;
+}
+.dbdy .newWen .newList li {
+    position: relative;
+    padding-left: 15px;
+}
+.dbdy .newWen .newList li:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -5px;
+    bottom: 32px;
+    background: url(../images/index_z_a1745cb.png) -2484px -355px;
+}
+.dbdy .newWen .newList .bskball {
+    width: 430px;
+    height: 24px;
+}
+.dbdy .newWen .newList .bskball .qiu {
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    margin-top: 5px;
+    margin-left: -8px;
+    background: url(../images/index_z_a1745cb.png) -2482px -353px;
+}
+.dbdy .newWen .newList .time {
+    line-height: 24px;
+    display: inline-block;
+    color: #ccc;
+    font-size: 16px;
+}
+.dbdy .newWen .newList .tegog {
+    width: 430px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 16px;
+    margin-top: 8px;
+    color: #fff;
+}
+.newWen .newList a li a {
+    display: block;
+    width: 430px;
+
+}
+.dbdy .select .swiper {
+    width: 572px;
+    height: 26px;
+    margin-top: 20px;
+    position: absolute;
+}
+.dbdy .select .swiper li {
+    width: 21px;
+    height: 20px;
+    margin-right: 30px;
+    border-radius: 50%;
+    background: url(../images/index_z_a1745cb.png) no-repeat;
+    float: left;
+    background-position: -2484px -298px;
+    opacity: 0.6;
+}
+.dbdy .select .swiper li:first-child{
+    margin-left: 190px;
+    opacity: 1;
+}
+.select {
+    height: 281px;
+}
+.seltr {
+    position: relative;
+}
+
+
+
